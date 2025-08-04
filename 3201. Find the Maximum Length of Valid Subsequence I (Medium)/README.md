@@ -1,12 +1,12 @@
 # 3201. Find the Maximum Length of Valid Subsequence I
 
+🔗 [LeetCode Link](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/)
+
 ## :beginner: Description
 
 給定一個陣列 nums，子陣列sub是合理的符合以下條件
 (sub[0] + sub[1]) % 2 == (sub[1] + sub[2]) % 2 == ... == (sub[x - 2] + sub[x - 1]) % 2.
 回傳sub的最長長度
-
-
 
 **TIPS:**  
 子陣列sub相鄰兩數相加mod 2一致，要分為以下三種情況討論
@@ -16,8 +16,8 @@
 
 **Constraints:**
 
-* 1 <= nums.length <= 10^5
-* 1 <= nums[i] <= 10^9
+* 2 <= nums.length <= 2 * 10^5
+* 1 <= nums[i] <= 10^7
 
 ## Python 
 

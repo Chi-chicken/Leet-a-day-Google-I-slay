@@ -1,5 +1,7 @@
 # 733. Flood Fill
 
+🔗 [LeetCode Link](https://leetcode.com/problems/flood-fill/description/)
+
 ## :beginner: Description
 
 給定以下輸入:
@@ -9,8 +11,6 @@
 
 試將 image 內「與起點顏色相同」，且「位置相鄰」的元素填上新顏色 color。
 (位置相鄰代表目前位置的垂直、水平四個方位相鄰元素)
-
-
 
 **TIPS:**  
 1. 記錄起點位置的顏色 image[sr][sc]
