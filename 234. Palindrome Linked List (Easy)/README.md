@@ -12,9 +12,21 @@ Q: 給定一個 linked list 的 head，如果他是回文就回傳 true，不是
 ## Python 
 
 ```python
-
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def isPalindrome(self, head: Optional[ListNode]) -> bool:
+        vals = []
+        current_node = head
+        while current_node is not None:
+            vals.append(current_node.val)
+            current_node = current_node.next
+        return vals == vals[::-1]
 ```
-Runtime: ms, Memory: mb
+Runtime: 10 ms, Memory: 39.3 mb
 
 ## C++
 
