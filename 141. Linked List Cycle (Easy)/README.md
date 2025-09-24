@@ -39,7 +39,7 @@ class Solution:
         return False
 
 ```
-Runtime: ms, Memory: mb
+Runtime: 45ms, Memory: 19.9mb
 
 ## C++
 
