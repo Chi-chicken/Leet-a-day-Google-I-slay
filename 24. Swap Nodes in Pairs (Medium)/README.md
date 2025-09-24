@@ -18,9 +18,33 @@
 ## Python 
 
 ```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        dummy = ListNode(-1)
+        dummy.next = head
 
+        pre_node = dummy
+
+        while head and head.next:
+
+            first_node = head
+            second_node = head.next
+
+            pre_node.next = second_node
+            first_node.next = second_node.next
+            second_node.next = first_node
+
+            pre_node = first_node
+            head = first_node.next
+
+        return dummy.next
 ```
-Runtime: ms, Memory: mb
+Runtime: 0 ms, Memory: 17.7 mb
 
 ## C++
 
