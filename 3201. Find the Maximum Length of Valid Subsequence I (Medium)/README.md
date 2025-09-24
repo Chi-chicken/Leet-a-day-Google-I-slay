@@ -20,6 +20,7 @@
 * 1 <= nums[i] <= 10^7
 
 ## Python 
+```python
 class Solution:
     def maximumLength(self, nums: List[int]) -> int:
         res = 0
@@ -31,8 +32,6 @@ class Solution:
             res = max(res, cnt)
         
         return res
-```python
-
 ```
 Runtime: 143 ms, Memory: 38.8 mb
 
