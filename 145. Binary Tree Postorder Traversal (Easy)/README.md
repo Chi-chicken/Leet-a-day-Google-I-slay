@@ -25,9 +25,26 @@
 ## Python 
 
 ```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        result = []
+        self.postorderTraversalHelper(root, result)
+        return result
 
+    def postorderTraversalHelper(self, currentNode, result):
+        if not currentNode:
+            return
+        self.postorderTraversalHelper(currentNode.left, result)
+        self.postorderTraversalHelper(currentNode.right, result)
+        result.append(currentNode.val)
 ```
-Runtime: ms, Memory: mb
+Runtime: 0 ms, Memory: 17.5 mb
 
 ## C++
 
