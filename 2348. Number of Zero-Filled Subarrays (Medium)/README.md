@@ -15,9 +15,21 @@ Q: 給定一個數列 nums，回傳nums內元素全部為0的子陣列數目
 ## Python 
 
 ```python
+class Solution:
+    def zeroFilledSubarray(self, nums: List[int]) -> int:
+        ans, num_subarray = 0, 0
 
+        for num in nums:
+            if num == 0:
+                num_subarray += 1
+            else:
+                num_subarray = 0
+            ans += num_subarray
+        
+        return ans
+        
 ```
-Runtime: ms, Memory: mb
+Runtime: 32 ms, Memory: 28.4 mb
 
 ## C++
 
