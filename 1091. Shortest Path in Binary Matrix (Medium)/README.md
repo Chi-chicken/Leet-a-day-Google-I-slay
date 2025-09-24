@@ -70,7 +70,7 @@ class Solution:
         
         return -1
 ```
-Runtime: 45ms, Memory: 19.9mb
+Runtime: 148 ms, Memory: 18.1 mb
 
 ## C++
 
