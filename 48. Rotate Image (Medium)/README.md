@@ -14,9 +14,27 @@ Q: 給定一個 n x n 矩陣 matrix，試問該如何將他順時針旋轉 90 �
 ## Python 
 
 ```python
+class Solution:
+    def rotate(self, matrix: List[List[int]]) -> None:
+        """
+        Do not return anything, modify matrix in-place instead.
+        """
+        self.transpose(matrix)
+        self.reverse(matrix)
 
+    def transpose(self, matrix):
+        n = len(matrix)
+        for i in range(n):
+            for j in range(i + 1, n):
+                matrix[j][i], matrix[i][j] = matrix[i][j], matrix[j][i]
+        
+    def reverse(self, matrix):
+        n = len(matrix)
+        for i in range(n):
+            for j in range(n // 2):
+                matrix[i][j], matrix[i][-j-1] = matrix[i][-j - 1], matrix[i][j]
 ```
-Runtime: ms, Memory: mb
+Runtime: 0 ms, Memory: 18.1 mb
 
 ## C++
 
