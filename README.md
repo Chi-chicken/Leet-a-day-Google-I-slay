@@ -28,8 +28,8 @@ Leetcode 討論群
 | [2348. Number of Zero-Filled Subarrays (Medium)](./2348.%20Number%20of%20Zero-Filled%20Subarrays%20(Medium)/README.md) | ✅ | ✅ |
 | [3201. Find the Maximum Length of Valid Subsequence I (Medium)](./3201.%20Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20I%20(Medium)/README.md) | ✅ | ✅ |
 | [3439. Reschedule Meetings for Maximum Free Time I (Medium)](./3439.%20Reschedule%20Meetings%20for%20Maximum%20Free%20Time%20I%20(Medium)/README.md) | ✅ | ✅ |
-| [48. Rotate Image (Medium)](./48.%20Rotate%20Image%20(Medium)/README.md) | ✅ | | ✅ | 
-| | ✅ | ❌ | |
+| [48. Rotate Image (Medium)](./48.%20Rotate%20Image%20(Medium)/README.md) | ✅ | ✅ |
+| [xx.pattern]() | ✅ | ❌ |
 
 ## Commit Log
 
