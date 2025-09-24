@@ -31,7 +31,7 @@ ANS: 透過上述 BFS 方法找尋 grid 中的最短路徑，並在每個遍歷�
 
 ## Python 
 
-```python
+```python 
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
 
