@@ -23,6 +23,7 @@ Leetcode 討論群
 | [733. Flood Fill (Easy)](./733.%20Flood%20Fill%20(Easy)/README.md) | ✅ | ✅ |
 | [735. Asteroid Collision (Medium)](./735.%20Asteroid%20Collision%20(Medium)/README.md) | ✅ | ✅ |
 | [783. Minimum Distance Between BST Nodes (Easy)](./783.%20Minimum%20Distance%20Between%20BST%20Nodes%20(Easy)/README.md) | ✅ | ✅ |
+| [961. N-Repeated Element in Size 2N Array (Easy)](./961.%20N-Repeated%20Element%20in%20Size%202N%20Array%20(Easy)/README.md) | ✅ | ❌ |
 | [994. Rotting Oranges (Medium)](./994.%20Rotting%20Oranges%20(Medium)/README.md) | ✅ | ✅ |
 | [1091. Shortest Path in Binary Matrix (Medium)](./1091.%20Shortest%20Path%20in%20Binary%20Matrix%20(Medium)/README.md) | ✅ | ✅ |
 | [2348. Number of Zero-Filled Subarrays (Medium)](./2348.%20Number%20of%20Zero-Filled%20Subarrays%20(Medium)/README.md) | ✅ | ✅ |
@@ -32,6 +33,8 @@ Leetcode 討論群
 | [xx.pattern]() | ✅ | ❌ |
 
 ## Commit Log
+
+- **2026-01-02** — by **jamesym-lin** — Commit：961. N-Repeated Element in Size 2N Array (Easy)
 
 - **2025-09-24** — by **chi-chiken** — Commit：221. Maximal Square (Medium), 994. Rotting Oranges (Medium), 234. Palindrome Linked List (Easy), 2348. Number of Zero-Filled Subarrays (Medium), 48. Rotate Image (Medium), 202. Happy Number (Easy), 24. Swap Nodes in Pairs (Medium), 94. Binary Tree Inorder Traversal (Easy), 1091. Shortest Path in Binary Matrix (Medium), 141. Linked List Cycle (Easy), 144. Binary Tree Preorder Traversal (Easy), 145. Binary Tree Postorder Traversal (Easy), 189. Rotate Array (Medium), 322. Coin Change (Medium), 3201. Find the Maximum Length of Valid Subsequence I (Medium), 733. Flood Fill (Easy), 735. Asteroid Collision (Medium), 3439. Reschedule Meetings for Maximum Free Time I (Medium), 441. Arranging coins (Easy), 783. Minimum Distance Between BST Nodes (Easy) in Python
 
