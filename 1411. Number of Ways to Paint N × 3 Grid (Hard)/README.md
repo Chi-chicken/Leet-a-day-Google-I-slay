@@ -36,7 +36,9 @@
    - 例如：`RGR`, `YBY`, `GBG`
 
 在 `n = 1` 時：
+
 ![n=1](./n1.png)
+
 - Case A：6 種
 - Case B：6 種
 
