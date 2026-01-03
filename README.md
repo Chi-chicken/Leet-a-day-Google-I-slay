@@ -26,6 +26,7 @@ Leetcode 討論群
 | [961. N-Repeated Element in Size 2N Array (Easy)](./961.%20N-Repeated%20Element%20in%20Size%202N%20Array%20(Easy)/README.md) | ✅ | ❌ |
 | [994. Rotting Oranges (Medium)](./994.%20Rotting%20Oranges%20(Medium)/README.md) | ✅ | ✅ |
 | [1091. Shortest Path in Binary Matrix (Medium)](./1091.%20Shortest%20Path%20in%20Binary%20Matrix%20(Medium)/README.md) | ✅ | ✅ |
+| [1411. Number of Ways to Paint N × 3 Grid (Hard)](./1411.%20Number%20of%20Ways%20to%20Paint%20N%20×%203%20Grid%20(Hard)/README.md) | ✅ | ❌ |
 | [2348. Number of Zero-Filled Subarrays (Medium)](./2348.%20Number%20of%20Zero-Filled%20Subarrays%20(Medium)/README.md) | ✅ | ✅ |
 | [3201. Find the Maximum Length of Valid Subsequence I (Medium)](./3201.%20Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20I%20(Medium)/README.md) | ✅ | ✅ |
 | [3439. Reschedule Meetings for Maximum Free Time I (Medium)](./3439.%20Reschedule%20Meetings%20for%20Maximum%20Free%20Time%20I%20(Medium)/README.md) | ✅ | ✅ |
@@ -33,6 +34,8 @@ Leetcode 討論群
 | [xx.pattern]() | ✅ | ❌ |
 
 ## Commit Log
+
+- **2026-01-03** — by **jamesym-lin** — Commit：1411. Number of Ways to Paint N × 3 Grid (Hard)
 
 - **2026-01-02** — by **jamesym-lin** — Commit：961. N-Repeated Element in Size 2N Array (Easy)
 
