@@ -1,4 +1,4 @@
-# 994. Binary Tree Level Order Traversal (Medium)
+# 102. Binary Tree Level Order Traversal (Medium)
 
 🔗 [LeetCode Link](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
