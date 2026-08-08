@@ -37,6 +37,12 @@
 ./scripts/new-member.sh your-github-id "顯示名稱"
 ```
 
+例如：
+
+```bash
+./scripts/new-member.sh jamesym-lin "專業打雜詹姆士"
+```
+
 每完成或複習一題，需要更新兩處：
 
 1. 在該題 README 的「個人學習紀錄」新增或更新自己的那一列。

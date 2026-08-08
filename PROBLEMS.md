@@ -79,6 +79,7 @@
 | 1091 | [Shortest Path in Binary Matrix](./1091.%20Shortest%20Path%20in%20Binary%20Matrix%20(Medium)/README.md) | Medium | ✅ |
 | 1277 | [Count Square Submatrices with All Ones](./1277.%20Count%20Square%20Submatrices%20with%20All%20Ones%20(Medium)/README.md) | Medium | 📝 |
 | 1411 | [Number of Ways to Paint N × 3 Grid](./1411.%20Number%20of%20Ways%20to%20Paint%20N%20×%203%20Grid%20(Hard)/README.md) | Hard | ✅ |
+| 2078 | [Two Furthest Houses With Different Colors](./2078.%20Two%20Furthest%20Houses%20With%20Different%20Colors%20(Easy)/README.md) | Easy | 📝 |
 | 2200 | [Find All K-Distant Indices in an Array](./2200.%20Find%20All%20K-Distant%20Indices%20in%20an%20Array%20(Easy)/README.md) | Easy | 📝 |
 | 2348 | [Number of Zero-Filled Subarrays](./2348.%20Number%20of%20Zero-Filled%20Subarrays%20(Medium)/README.md) | Medium | ✅ |
 | 3201 | [Find the Maximum Length of Valid Subsequence I](./3201.%20Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20I%20(Medium)/README.md) | Medium | ✅ |

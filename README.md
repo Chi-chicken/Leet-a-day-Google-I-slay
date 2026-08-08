@@ -39,6 +39,12 @@
 ./scripts/new-member.sh your-github-id "顯示名稱"
 ```
 
+例如：
+
+```bash
+./scripts/new-member.sh jamesym-lin "專業打雜詹姆士"
+```
+
 熟悉度統一使用 `1`～`5`：`1` 代表需要重新學習，`3` 代表能在提示下完成，`5` 代表能獨立完成並解釋思路。完整規則請見 [成員學習紀錄](./progress/README.md)。
 
 ## 更新紀錄原則

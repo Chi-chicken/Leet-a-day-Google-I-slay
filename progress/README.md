@@ -16,6 +16,12 @@
 ./scripts/new-member.sh your-github-id "顯示名稱"
 ```
 
+例如：
+
+```bash
+./scripts/new-member.sh jamesym-lin "專業打雜詹姆士"
+```
+
 建立後請：
 
 1. 在上方成員列表加入自己的頁面。
