@@ -1,17 +1,19 @@
 # 48. Rotate Image (Medium)
 
+> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/rotate-image/)
+
 🔗 [LeetCode Link](https://leetcode.com/problems/rotate-image/)
 
-## :beginner: Description
+## 題目摘要
 
-Q: 給定一個 n x n 矩陣 matrix，試問該如何將他順時針旋轉 90 度  
+Q: 給定一個 n x n 矩陣 matrix，試問該如何將他順時針旋轉 90 度
 
-## :bulb: TIPS
-1. 90 = transpose + reverse row  
-2. 180 = reverse row + reverse column  
-3. 270 = transpose + reverse col  
+## 解題思路
+1. 90 = transpose + reverse row
+2. 180 = reverse row + reverse column
+3. 270 = transpose + reverse col
 
-## Python 
+## Python
 
 ```python
 class Solution:
@@ -27,7 +29,7 @@ class Solution:
         for i in range(n):
             for j in range(i + 1, n):
                 matrix[j][i], matrix[i][j] = matrix[i][j], matrix[j][i]
-        
+
     def reverse(self, matrix):
         n = len(matrix)
         for i in range(n):
@@ -60,3 +62,9 @@ public:
 ```
 
 Runtime: 0 ms, Memory: 10 mb
+
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

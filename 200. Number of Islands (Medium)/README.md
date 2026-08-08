@@ -1,8 +1,10 @@
 # 200. Number of Islands
 
+> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/number-of-islands/)
+
 🔗 [LeetCode Link](https://leetcode.com/problems/number-of-islands/)
 
-## :beginner: Description
+## 題目摘要
 
 BFS!!!
 
@@ -10,10 +12,10 @@ BFS!!!
 Island（島嶼） 的定義是：
 由 上下左右（4-direction） 相連的 "1" 所構成(對角線不算)，計算 grid 中有幾個島嶼。
 
-## :bulb: TIPS
+## 解題思路
 每次從 queue 拿出當層所有節點，記錄它們的值，並把下一層節點加入 queue
 
-## Python 
+## Python
 
 ```python
 from collections import deque
@@ -22,7 +24,7 @@ class Solution:
 
         if not grid:
             return 0
-        
+
         nrow = len(grid)
         ncol = len(grid[0])
         num_islands = 0
@@ -52,7 +54,7 @@ class Solution:
 ```
 Runtime: 223 ms, Memory: 21.9 mb
 
-### Complexity Analysis
+## 複雜度
 
 Time complexity: O(MN) Grid大小
 
@@ -66,3 +68,9 @@ Space complexity: O(MN) 最壞情況 整張都是島("1")
 ```
 
 Rumtime:  ms, Memory:  mb
+
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

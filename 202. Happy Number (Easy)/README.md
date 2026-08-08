@@ -1,17 +1,19 @@
 # 202. Happy Number (Easy)
 
+> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/happy-number/)
+
 🔗 [LeetCode Link](https://leetcode.com/problems/happy-number/)
 
-## :beginner: Description
+## 題目摘要
 
-Q: Happy number是不斷把一正整數的每一位數平方相加，如果最後所得為1，則為Happy Number，return true；如果進入某種循環則不happy，return false  
-EX:  
+Q: Happy number是不斷把一正整數的每一位數平方相加，如果最後所得為1，則為Happy Number，return true；如果進入某種循環則不happy，return false
+EX:
 
-## :bulb: TIPS
-1. 將每次循環出現過的數字放入unordered map或set之中，以確認該數字是否已經重複出現，若是的話，則表示進入了循環，return false  
-2. X的平方: pow(x, 2)  
+## 解題思路
+1. 將每次循環出現過的數字放入unordered map或set之中，以確認該數字是否已經重複出現，若是的話，則表示進入了循環，return false
+2. X的平方: pow(x, 2)
 
-## Python 
+## Python
 
 ```python
 class Solution:
@@ -47,7 +49,7 @@ public:
             }
             n = square_sum;
             square_sum = 0;
-            
+
             if (map.find(n) == map.end()) map[n] = 1;
             else return false;
         }
@@ -57,3 +59,9 @@ public:
 ```
 
 Runtime: 0 ms, Memory: 8.4 mb
+
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

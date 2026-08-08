@@ -1,8 +1,10 @@
 # 3439. Reschedule Meetings for Maximum Free Time I
 
+> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/)
+
 🔗 [LeetCode Link](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/description/)
 
-## :beginner: Description
+## 題目摘要
 
 這題要我們重新安排會議以得到最大的休息時間
 
@@ -12,7 +14,7 @@
 3. int 變數 k 是你可以移動的會議數目，透過移動 k 場會議的時間，試求能夠得到的最長休息時間為何。
 (會議順序不可調動)
 
-**TIPS:**  
+**TIPS:**
 1. 目前陣列中只有會議開始以及結束的時間，但我們關注的焦點是休息時間，是否可以先得到我們目前有的休息時間陣列?
 2. 可以試想移動會議這件事對我們的休息時間會產生什麼影響?
 
@@ -31,7 +33,7 @@ ANS:
 * 0 <= startTime[i] < endTime[i] <= eventTime
 * endTime[i] <= startTime[i + 1] where i lies in the range [0, n - 2]
 
-## Python 
+## Python
 
 ```python
 class Solution:
@@ -85,3 +87,9 @@ public:
 };
 ```
 Runtime: 2 ms, Memory: 123.24 mb
+
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

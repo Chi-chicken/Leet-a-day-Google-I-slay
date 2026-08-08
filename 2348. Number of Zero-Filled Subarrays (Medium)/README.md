@@ -1,18 +1,20 @@
 # 2348. Number of Zero-Filled Subarrays (Medium)
 
+> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/number-of-zero-filled-subarrays/)
+
 🔗 [LeetCode Link](https://leetcode.com/problems/number-of-zero-filled-subarrays/)
 
-## :beginner: Description
+## 題目摘要
 
 Q: 給定一個數列 nums，回傳nums內元素全部為0的子陣列數目
 
-## :bulb: TIPS
+## 解題思路
 [0陣列] -> 能形成的子陣列數目
 1. [0] -> 1
 2. [0, 0] -> 1+2
 3. [0, 0, 0] -> 1+2+3
 
-## Python 
+## Python
 
 ```python
 class Solution:
@@ -25,9 +27,9 @@ class Solution:
             else:
                 num_subarray = 0
             ans += num_subarray
-        
+
         return ans
-        
+
 ```
 Runtime: 32 ms, Memory: 28.4 mb
 
@@ -50,3 +52,9 @@ public:
 };
 ```
 Runtime: 0 ms, Memory: 111.22 mb
+
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

@@ -1,22 +1,24 @@
 # 994. Rotting Oranges (Medium)
 
+> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/rotting-oranges/)
+
 🔗 [LeetCode Link](https://leetcode.com/problems/rotting-oranges/)
 
-## :beginner: Description
+## 題目摘要
 
-Q: 壞橘子爛了整欄橘  
-傳入一個m x n 二維陣列，內部元素 0 代表空、1為新鮮橘、2為爛橘。  
-每過一個時間點與爛橘子相鄰的新鮮橘會爛掉 (四個方位)，試問最少過了幾個時間點所有橘子都會爛掉?  
-若所有橘子都爛掉回傳該時間點，若有新鮮橘殘留則回傳 -1  
+Q: 壞橘子爛了整欄橘
+傳入一個m x n 二維陣列，內部元素 0 代表空、1為新鮮橘、2為爛橘。
+每過一個時間點與爛橘子相鄰的新鮮橘會爛掉 (四個方位)，試問最少過了幾個時間點所有橘子都會爛掉?
+若所有橘子都爛掉回傳該時間點，若有新鮮橘殘留則回傳 -1
 
-## :bulb: TIPS
-我們需要額外初始化一個一樣大小的二維陣列紀錄每輪橘子爛掉的timestamp所以在做 DFS 時，我們需要隨時更新:  
-1. grid - 負責記錄橘子的狀態 (新鮮與否)  
-2. gridTime - 負責記錄橘子是在第幾個time stamp被腐化  
+## 解題思路
+我們需要額外初始化一個一樣大小的二維陣列紀錄每輪橘子爛掉的timestamp所以在做 DFS 時，我們需要隨時更新:
+1. grid - 負責記錄橘子的狀態 (新鮮與否)
+2. gridTime - 負責記錄橘子是在第幾個time stamp被腐化
 
-*註: 一開始在尋找爛橘子作為DFS的起點時，順便紀錄新鮮橘的數量，以在最後判斷橘子是否全部被腐化完。在做DFS的過程中，也要隨時記錄爛橘數目。  
+*註: 一開始在尋找爛橘子作為DFS的起點時，順便紀錄新鮮橘的數量，以在最後判斷橘子是否全部被腐化完。在做DFS的過程中，也要隨時記錄爛橘數目。
 
-## Python 
+## Python
 
 ```python
 from collections import deque
@@ -95,7 +97,7 @@ public:
                     grid[nextX][nextY] = 2; // 將新鮮橘狀態改為腐爛橘
                     int timeTemp = gridTime[currX][currY] + 1; // 計算被腐爛橘子的 timestamp
                     gridTime[nextX][nextY] = timeTemp; // 紀錄被腐爛橘子的 timestamp 至 gridTime
-                    rotOrange++; // 被腐爛的橘子數量 ++ 
+                    rotOrange++; // 被腐爛的橘子數量 ++
                     if (timeTemp >= timeMax) timeMax = timeTemp; // 判斷是否為最大 timestamp
                 }
             }
@@ -108,3 +110,9 @@ public:
 ```
 
 Rumtime: 0 ms, Memory: 17.2 mb
+
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

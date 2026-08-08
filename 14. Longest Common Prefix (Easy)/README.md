@@ -1,20 +1,22 @@
-# 14. Longest Common Prefix 
+# 14. Longest Common Prefix
+
+> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/longest-common-prefix/)
 
 🔗 [LeetCode Link](https://leetcode.com/problems/longest-common-prefix/)
 
-## :beginner: Description
+## 題目摘要
 
 找出這些字串中Longest Common Prefix（最長共同前綴)，也就是從最左邊開始，所有字串都一樣的那一段字串
 
 
-## :bulb: TIPS
+## 解題思路
 水平掃描
 1. 先假設第一個字串是 prefix
 2. 依序拿 prefix 跟下一個字串比
 3. 不符合就縮短 prefix
 4. prefix 變空字串就直接結束
 
-## Python 
+## Python
 
 ```python
 class Solution:
@@ -31,11 +33,11 @@ class Solution:
 ```
 Runtime: 0 ms, Memory: 19.41 mb
 
-### Complexity Analysis
+## 複雜度
 
 Time complexity: O(S) 所有字串的字元總數
 
-Space complexity: O(1) 
+Space complexity: O(1)
 
 
 ## C++
@@ -45,3 +47,9 @@ Space complexity: O(1)
 ```
 
 Rumtime:  ms, Memory:  mb
+
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

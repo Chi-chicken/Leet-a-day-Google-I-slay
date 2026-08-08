@@ -1,16 +1,18 @@
 # 125. Valid Palindrome
 
+> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/valid-palindrome/)
+
 🔗 [LeetCode Link](https://leetcode.com/problems/valid-palindrome/)
 
-## :beginner: Description
+## 題目摘要
 
 忽略非英數字元（字母、數字以外的都不算），忽略大小寫，判斷字串是否為回文。
 
 
-## :bulb: TIPS
+## 解題思路
 Two pointers
 
-## Python 
+## Python
 
 ```python
 class Solution:
@@ -32,7 +34,7 @@ class Solution:
 ```
 Runtime: 8 ms, Memory: 19.7 mb
 
-### Complexity Analysis
+## 複雜度
 
 Time complexity: O(n)
 
@@ -46,3 +48,9 @@ Space complexity: O(1)
 ```
 
 Rumtime:  ms, Memory:  mb
+
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

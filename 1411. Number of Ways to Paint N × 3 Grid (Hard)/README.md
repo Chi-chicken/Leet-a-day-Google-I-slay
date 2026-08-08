@@ -1,27 +1,29 @@
 ## 1411. Number of Ways to Paint N × 3 Grid (Hard)
 
+> 難度：**Hard**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/)
+
 🔗 https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/
 
 ---
 
 ### 📌 題目資訊
 
-- **題號**：1411  
-- **題名**：Number of Ways to Paint N × 3 Grid  
-- **難度**：Hard  
-- **題型**：Dynamic Programming / State Compression / Combinatorics  
+- **題號**：1411
+- **題名**：Number of Ways to Paint N × 3 Grid
+- **難度**：Hard
+- **題型**：Dynamic Programming / State Compression / Combinatorics
 
 ---
 
 ### 🧠 題意說明（Description）
 
-給定一個大小為 `n × 3` 的 grid，每個格子可以塗上 **紅、黃、綠** 三種顏色之一，  
+給定一個大小為 `n × 3` 的 grid，每個格子可以塗上 **紅、黃、綠** 三種顏色之一，
 且必須滿足以下條件：
 
 - 上下相鄰格子 **不可同色**
 - 左右相鄰格子 **不可同色**
 
-請計算在給定 `n` 的情況下，有多少種合法的塗色方式。  
+請計算在給定 `n` 的情況下，有多少種合法的塗色方式。
 答案需對 `10^9 + 7` 取模。
 
 ---
@@ -122,3 +124,9 @@ public:
 class Solution:
 
 ```
+
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

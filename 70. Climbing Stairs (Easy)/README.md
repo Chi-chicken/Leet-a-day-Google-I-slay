@@ -1,6 +1,8 @@
 # 70. Climbing Stairs
 
-## :beginner: Description
+> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/climbing-stairs/)
+
+## 題目摘要
 
 You are climbing a staircase. It takes `n` steps to reach the top.
 
@@ -32,9 +34,9 @@ Each time you can either climb `1` or `2` steps. In how many distinct ways can y
 
 *   `1 <= n <= 45`
 
-## Python 
+## Python
 
-``` python
+```python
 class Solution:
     def climbStairs(self, n: int) -> int:
         if n == 1 :
@@ -51,8 +53,13 @@ Runtime: 0ms, Memory: 17.8mb
 
 ## C++
 
-``` c++
+```cpp
 ```
 
 Runtime: ms, Memory: mb
 
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

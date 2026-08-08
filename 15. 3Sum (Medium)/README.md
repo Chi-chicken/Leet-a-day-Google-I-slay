@@ -1,20 +1,22 @@
 # 15. 3Sum
 
+> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/3sum/)
+
 🔗 [LeetCode Link](https://leetcode.com/problems/3sum/)
 
-## :beginner: Description
+## 題目摘要
 
 經典的BFS
 
 3數相加=0
 
-## :bulb: TIPS
+## 解題思路
 簡單來說只是把167題變成三個數相加而已，所以完全可以繼續用two pointers，把其中一個數字固定，再利用two pointers去找有沒有三數相+會等於0的nums[lo]跟nums[hi]
 首先，把數列sort過會簡單很多，固定住個數字也只要找<0的就好，因為如果三數都大於0就不可能加起來是0了
 接著，把固定好的數字跟pointer需要用到的i放進去twoSumII就好了！
 要小心的是，twoSumII這個function最後要記得判斷不要有重複的數字~
 
-## Python 
+## Python
 
 ```python
 class Solution:
@@ -45,7 +47,7 @@ class Solution:
 ```
 Runtime: 433 ms, Memory: 20.6 mb
 
-### Complexity Analysis
+## 複雜度
 
 Time complexity: O(n^2)
 
@@ -60,3 +62,8 @@ Space complexity: O(logn)~O(n)
 
 Rumtime:  ms, Memory:  mb
 
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

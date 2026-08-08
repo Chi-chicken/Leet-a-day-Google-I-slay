@@ -1,21 +1,23 @@
 ## 961. N-Repeated Element in Size 2N Array (Easy)
 
+> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)
+
 🔗 https://leetcode.com/problems/n-repeated-element-in-size-2n-array/
 
 ---
 
 ### 📌 題目資訊
 
-- **題號**：961  
-- **題名**：N-Repeated Element in Size 2N Array  
-- **難度**：Easy  
-- **題型**：Array / Math / Pigeonhole Principle  
+- **題號**：961
+- **題名**：N-Repeated Element in Size 2N Array
+- **難度**：Easy
+- **題型**：Array / Math / Pigeonhole Principle
 
 ---
 
 ### 🧠 題意說明（Description）
 
-給定一個整數陣列 `nums`，其長度為 `2 * n`。  
+給定一個整數陣列 `nums`，其長度為 `2 * n`。
 陣列中一共有 `n + 1` 種不同的元素，其中 **只有一個元素會重複出現 `n` 次**，其餘元素皆只出現一次。
 
 請回傳那個 **重複出現 n 次的元素**。
@@ -99,3 +101,9 @@ public:
 class Solution:
 
 ```
+
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

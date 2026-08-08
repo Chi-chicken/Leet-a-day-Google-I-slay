@@ -1,21 +1,23 @@
 # 24. Swap Nodes in Pairs
 
+> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/swap-nodes-in-pairs/)
+
 🔗 [LeetCode Link](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
-## :beginner: Description
+## 題目摘要
 
 將給定 linked list 中的 nodes 倆倆為一組進行交換
 
-**TIPS:**  
+**TIPS:**
 1. 先 new 一個 dummyhead 並接到 head，建立 currNode 指向 dummyhead。
 2. 接下來 while loop 判斷 currNode->next 及 currNode->next->next 是否為 nullptr，若非，則可進行交換。
 3. 倆倆交換可使用 tempNode 來暫存要調整的節點，進行指標更新。
 
-**Constraints:**  
+**Constraints:**
 * The number of nodes in the list is in the range [0, 100].
 * 0 <= Node.val <= 100
 
-## Python 
+## Python
 
 ```python
 # Definition for singly-linked list.
@@ -82,3 +84,8 @@ public:
 ```
 Runtime: 0 ms, Memory: 11.2 mb
 
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

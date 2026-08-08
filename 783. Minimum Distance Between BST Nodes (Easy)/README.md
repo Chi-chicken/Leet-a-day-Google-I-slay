@@ -1,20 +1,22 @@
 # 783. Minimum Distance Between BST Nodes
 
+> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
+
 🔗 [LeetCode Link](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)
 
-## :beginner: Description
+## 題目摘要
 
 在 binary search tree 中找到任意兩個 node 相差最小的數值
 
-**TIPS:**  
+**TIPS:**
 1. 因為是 BST，所以用 In-order traversal 的方式可以依照數值從小到大進行遍歷
 2. 將 lastval 以及 minDiff 設在 main function 的作用域之外，在遍歷的過程中不斷更新 lastval 以及比較 minDiff
 
-**Constraints:**  
+**Constraints:**
 * The number of nodes in the tree is in the range [2, 100].
 * 0 <= Node.val <= 10^5
 
-## Python 
+## Python
 
 ```python
 # Definition for a binary tree node.
@@ -73,3 +75,8 @@ public:
 ```
 Runtime: 0 ms, Memory: 12.3 mb
 
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

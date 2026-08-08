@@ -1,19 +1,21 @@
 # 221. Maximal Square (Medium)
 
+> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/maximal-square/)
+
 🔗 [LeetCode Link](https://leetcode.com/problems/maximal-square/)
 
-## :beginner: Description
+## 題目摘要
 
 Q: 給定一個 m x n 矩陣 matrix，裡面元素由0或1組成，試求矩陣中由1組成的最大正方形面積
 
-## :bulb: TIPS
-1. 此題為一題DP題目，需要額外創建一個dp array，dp array中記錄的是「由該位置為起點，往左上方可形成的最大方形之邊長」。因此，在解題的過程中，我們利用雙重for迴圈遍歷matrix，並同步在dp array的相同位置中更新該位置可形成的最大方形邊長。  
-2. 詳細而言，在遍歷的過程中，在matrix中若遇到0，可直接在dp array中相同位置填上0，表示在該位置形成了邊長為0的正方形；若在「第一行或列」遇到1，則直接填入1，表示該位置可以形成邊長為1的正方形。  
-3. 而如果在matrix邊邊以外的位置中遇到1，我們則需要觀察該位置在dp array中的左方、上方、左上方紀錄的邊長數值為多少，進而決定目前位置要填入多大的邊長。  
-4. 如圖，如果dp array的左方、上方、左上方皆紀錄為1，則表示加入目前位置的這個1，便可以形成邊長為2的方形。同理，如果左方、上方、左上方皆紀錄為2，表示這些元素都可以形成邊長為2的方形，因此目前位置需填3。實作為:  
+## 解題思路
+1. 此題為一題DP題目，需要額外創建一個dp array，dp array中記錄的是「由該位置為起點，往左上方可形成的最大方形之邊長」。因此，在解題的過程中，我們利用雙重for迴圈遍歷matrix，並同步在dp array的相同位置中更新該位置可形成的最大方形邊長。
+2. 詳細而言，在遍歷的過程中，在matrix中若遇到0，可直接在dp array中相同位置填上0，表示在該位置形成了邊長為0的正方形；若在「第一行或列」遇到1，則直接填入1，表示該位置可以形成邊長為1的正方形。
+3. 而如果在matrix邊邊以外的位置中遇到1，我們則需要觀察該位置在dp array中的左方、上方、左上方紀錄的邊長數值為多少，進而決定目前位置要填入多大的邊長。
+4. 如圖，如果dp array的左方、上方、左上方皆紀錄為1，則表示加入目前位置的這個1，便可以形成邊長為2的方形。同理，如果左方、上方、左上方皆紀錄為2，表示這些元素都可以形成邊長為2的方形，因此目前位置需填3。實作為:
    `dp[i][j] = min({dp[i-1][j], dp[i][j-1], dp[i-1][j-1]}) + 1;`
 
-## Python 
+## Python
 
 ```python
 class Solution:
@@ -29,7 +31,7 @@ class Solution:
                     dp[i][j] = (min(min(dp[i][j - 1], dp[i - 1][j]), dp[i - 1][j - 1]) + 1)
 
                     maxsqlen = max(maxsqlen, dp[i][j])
-        
+
         return maxsqlen **2
 ```
 Runtime: 151 ms, Memory: 33.1 mb
@@ -62,3 +64,9 @@ public:
 ```
 
 Runtime: 6 ms; Memory: 29.2 mb
+
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

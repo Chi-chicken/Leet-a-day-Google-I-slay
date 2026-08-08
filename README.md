@@ -1,48 +1,67 @@
-# 每天一題 Leetcode 直到上美國 Google
+# Leet-a-day, Google I Slay
 
-Leetcode 討論群  
-簡單的更新 .md 就可以了  
-[.md 語法支援](https://hackmd.io/@eMP9zQQ0Qt6I8Uqp2Vqy6w/SyiOheL5N/%2FzMIQV80gSiGGkKk1sa8HZA)  
-[md template](https://github.com/Chi-chicken/Leet-a-day-Google-I-slay/blob/main/template.md)
+以 LeetCode 題目累積演算法觀念、解題思路與 Python／C++ 實作的學習紀錄。
 
-## 題目進度追蹤
+## 專案概況
 
-| Problem List | C++ | Python |
-|--------------------|:---:|:------:|
-| [1091. Shortest Path in Binary Matrix (Medium)](./1091.%20Shortest%20Path%20in%20Binary%20Matrix%20(Medium)/README.md) | ✅ | ✅ |
-| [141. Linked List Cycle (Easy)](./141.%20Linked%20List%20Cycle%20(Easy)/README.md) | ✅ | ✅ |
-| [1411. Number of Ways to Paint N × 3 Grid (Hard)](./1411.%20Number%20of%20Ways%20to%20Paint%20N%20×%203%20Grid%20(Hard)/README.md) | ✅ | ❌ |
-| [144. Binary Tree Preorder Traversal (Easy)](./144.%20Binary%20Tree%20Preorder%20Traversal%20(Easy)/README.md) | ✅ | ✅ |
-| [189. Rotate Array (Medium)](./189.%20Rotate%20Array%20(Medium)/README.md) | ✅ | ✅ |
-| [145. Binary Tree Postorder Traversal (Easy)](./145.%20Binary%20Tree%20Postorder%20Traversal%20(Easy)/README.md) | ✅ | ✅ |
-| [202. Happy Number (Easy)](./202.%20Happy%20Number%20(Easy)/README.md) | ✅ | ✅ |
-| [221. Maximal Square (Medium)](./221.%20Maximal%20Square%20(Medium)/README.md) | ✅ | ✅ |
-| [234. Palindrome Linked List (Easy)](./234.%20Palindrome%20Linked%20List%20(Easy)/README.md) | ✅ | ✅ |
-| [2348. Number of Zero-Filled Subarrays (Medium)](./2348.%20Number%20of%20Zero-Filled%20Subarrays%20(Medium)/README.md) | ✅ | ✅ |
-| [24. Swap Nodes in Pairs (Medium)](./24.%20Swap%20Nodes%20in%20Pairs%20(Medium)/README.md) | ✅ | ✅ |
-| [3201. Find the Maximum Length of Valid Subsequence I (Medium)](./3201.%20Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20I%20(Medium)/README.md) | ✅ | ✅ |
-| [3439. Reschedule Meetings for Maximum Free Time I (Medium)](./3439.%20Reschedule%20Meetings%20for%20Maximum%20Free%20Time%20I%20(Medium)/README.md) | ✅ | ✅ |
-| [322. Coin Change (Medium)](./322.%20Coin%20Change%20(Medium)/README.md) | ✅ | ✅ |
-| [441. Arranging coins (Easy)](./441.%20Arranging%20coins%20(Easy)/README.md) | ✅ | ✅ |
-| [48. Rotate Image (Medium)](./48.%20Rotate%20Image%20(Medium)/README.md) | ✅ | ✅ |
-| [733. Flood Fill (Easy)](./733.%20Flood%20Fill%20(Easy)/README.md) | ✅ | ✅ |
-| [735. Asteroid Collision (Medium)](./735.%20Asteroid%20Collision%20(Medium)/README.md) | ✅ | ✅ |
-| [783. Minimum Distance Between BST Nodes (Easy)](./783.%20Minimum%20Distance%20Between%20BST%20Nodes%20(Easy)/README.md) | ✅ | ✅ |
-| [94. Binary Tree Inorder Traversal (Easy)](./94.%20Binary%20Tree%20Inorder%20Traversal%20(Easy)/README.md) | ✅ | ✅ |
-| [961. N-Repeated Element in Size 2N Array (Easy)](./961.%20N-Repeated%20Element%20in%20Size%202N%20Array%20(Easy)/README.md) | ✅ | ❌ |
-| [994. Rotting Oranges (Medium)](./994.%20Rotting%20Oranges%20(Medium)/README.md) | ✅ | ✅ |
+| 題目數 | Easy | Medium | Hard |
+|---:|---:|---:|---:|
+| 79 | 33 | 43 | 3 |
 
-| [xx.pattern]() | ✅ | ❌ |
+- [查看完整題目索引](./PROBLEMS.md)
+- [查看成員學習紀錄](./progress/README.md)
+- [查看題解公版](./0.%20TEMPLATE/README.md)
+- [查看新增題目指南](./CONTRIBUTING.md)
 
-## Commit Log
-- **2026-01-12** — by **chi-chiken** — Commit：Modify Readme.md to make the order match this repo. Add all questions numbers. Content is being continuously added...
+索引中的狀態：`✅` 表示已有題解內容，`📝` 表示已建立筆記骨架、等待補完。
 
-- **2026-01-03** — by **jamesym-lin** — Commit：1411. Number of Ways to Paint N × 3 Grid (Hard)
+## 快速新增題目
 
-- **2026-01-02** — by **jamesym-lin** — Commit：961. N-Repeated Element in Size 2N Array (Easy)
+```bash
+./scripts/new-problem.sh 70 "Climbing Stairs" Easy
+```
 
-- **2025-09-24** — by **chi-chiken** — Commit：221. Maximal Square (Medium), 994. Rotting Oranges (Medium), 234. Palindrome Linked List (Easy), 2348. Number of Zero-Filled Subarrays (Medium), 48. Rotate Image (Medium), 202. Happy Number (Easy), 24. Swap Nodes in Pairs (Medium), 94. Binary Tree Inorder Traversal (Easy), 1091. Shortest Path in Binary Matrix (Medium), 141. Linked List Cycle (Easy), 144. Binary Tree Preorder Traversal (Easy), 145. Binary Tree Postorder Traversal (Easy), 189. Rotate Array (Medium), 322. Coin Change (Medium), 3201. Find the Maximum Length of Valid Subsequence I (Medium), 733. Flood Fill (Easy), 735. Asteroid Collision (Medium), 3439. Reschedule Meetings for Maximum Free Time I (Medium), 441. Arranging coins (Easy), 783. Minimum Distance Between BST Nodes (Easy) in Python
+完成題解後更新索引：
 
-- **2025-08-27** — by **jamesym-lin** — Commit：221. Maximal Square (Medium), 994. Rotting Oranges (Medium), 234. Palindrome Linked List (Easy), 2348. Number of Zero-Filled Subarrays (Medium), 48. Rotate Image (Medium), 202. Happy Number (Easy)
+```bash
+./scripts/update-index.sh
+```
 
-- **2025-08-04** — by **jamesym-lin** — Commit：24. Swap Nodes in Pairs (Medium), 94. Binary Tree Inorder Traversal (Easy), 1091. Shortest Path in Binary Matrix (Medium), 141. Linked List Cycle (Easy), 144. Binary Tree Preorder Traversal (Easy), 145. Binary Tree Postorder Traversal (Easy), 189. Rotate Array (Medium), 322. Coin Change (Medium), 3201. Find the Maximum Length of Valid Subsequence I (Medium), 733. Flood Fill (Easy), 735. Asteroid Collision (Medium), 3439. Reschedule Meetings for Maximum Free Time I (Medium), 441. Arranging coins (Easy), 783. Minimum Distance Between BST Nodes (Easy)
+腳本會建立符合 `{題號}. {英文題名} ({難度})` 命名規則的目錄，並由公版帶入基本資料。更完整的欄位說明與手動新增方式請見 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+
+## 多人學習紀錄
+
+每題 README 最下方都有「個人學習紀錄」，用來記錄各成員的完成日期、最近複習日期、熟悉度及簡短筆記。每位成員另有一份獨立的 `progress/<GitHub 帳號>.md`，集中整理自己的進度，減少多人同時編輯同一檔案造成的衝突。
+
+第一次加入時建立個人頁面：
+
+```bash
+./scripts/new-member.sh your-github-id "顯示名稱"
+```
+
+熟悉度統一使用 `1`～`5`：`1` 代表需要重新學習，`3` 代表能在提示下完成，`5` 代表能獨立完成並解釋思路。完整規則請見 [成員學習紀錄](./progress/README.md)。
+
+## 更新紀錄原則
+
+不另外手動維護「誰在何時修改哪一題」的大表。Git 已經保留作者、時間與每一行的修改紀錄，手動再記一次容易遺漏或失真。建議 commit message 使用：
+
+```text
+docs(70): add James's review notes
+feat(200): add Python DFS solution
+```
+
+查詢單題歷史可使用 `git log --follow -- "題目目錄/README.md"`；查詢每一行最後由誰修改可使用 `git blame "題目目錄/README.md"`。
+
+## 題解建議內容
+
+每份筆記盡量包含：
+
+- 題目摘要與原題連結
+- 關鍵觀察與演算法步驟
+- 時間、空間複雜度
+- Python／C++ 實作（可只保留實際使用的語言）
+- 邊界條件、常見陷阱與複習筆記
+
+## Markdown 參考
+
+- [GitHub Markdown 基本語法](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)

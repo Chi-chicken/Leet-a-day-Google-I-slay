@@ -1,15 +1,17 @@
 # 234. Palindrome Linked List (Easy)
 
+> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/palindrome-linked-list/)
+
 🔗 [LeetCode Link](https://leetcode.com/problems/palindrome-linked-list/)
 
-## :beginner: Description
+## 題目摘要
 
-Q: 給定一個 linked list 的 head，如果他是回文就回傳 true，不是的話回傳 false  
+Q: 給定一個 linked list 的 head，如果他是回文就回傳 true，不是的話回傳 false
 
-## :bulb: TIPS
+## 解題思路
 遍歷 linked list 並將元素逐一加入vector中，最後用two pointers判斷該vector是否為回文。
 
-## Python 
+## Python
 
 ```python
 # Definition for singly-linked list.
@@ -63,3 +65,9 @@ public:
 ```
 
 Runtime: 0 ms, Memory: 132.1 mb
+
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

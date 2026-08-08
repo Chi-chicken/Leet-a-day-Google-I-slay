@@ -1,8 +1,10 @@
 # 733. Flood Fill
 
+> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/flood-fill/)
+
 🔗 [LeetCode Link](https://leetcode.com/problems/flood-fill/description/)
 
-## :beginner: Description
+## 題目摘要
 
 給定以下輸入:
 1. 一個 m x n 矩陣 image，裡面的元素大小代表顏色
@@ -12,7 +14,7 @@
 試將 image 內「與起點顏色相同」，且「位置相鄰」的元素填上新顏色 color。
 (位置相鄰代表目前位置的垂直、水平四個方位相鄰元素)
 
-**TIPS:**  
+**TIPS:**
 1. 記錄起點位置的顏色 image[sr][sc]
 2. 利用 BFS 從 sr, sc 開始遍歷 image (參照 Q. 1091)，只要當下元素顏色與起點位置顏色相同，則將它改成新顏色。遍歷直至 BFS queue 為空
 
@@ -25,7 +27,7 @@
 * 0 <= sr < m
 * 0 <= sc < n
 
-## Python 
+## Python
 
 ```python
 class Solution:
@@ -78,8 +80,8 @@ public:
                 int rowNext = row + dx[i];
                 int colNext = col + dy[i];
                 // 在 image 範圍內，且顏色為舊顏色，則 push 至 queue 中
-                if (rowNext >=0 && colNext >= 0 && 
-                    rowNext < m && colNext < n && 
+                if (rowNext >=0 && colNext >= 0 &&
+                    rowNext < m && colNext < n &&
                     image[rowNext][colNext] == colorOld){
                     color_q.push({rowNext, colNext});
                 }
@@ -90,3 +92,9 @@ public:
 };
 ```
 Runtime: 0 ms, Memory: 18.24 mb
+
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

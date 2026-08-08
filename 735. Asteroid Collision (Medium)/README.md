@@ -1,15 +1,17 @@
 # 735. Asteroid Collision
 
+> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/asteroid-collision/)
+
 🔗 [LeetCode Link](https://leetcode.com/problems/asteroid-collision/)
 
-## :beginner: Description
+## 題目摘要
 
 給定一個陣列 asteroids，裡面的正數代表往右飛的小行星、負數代表往左飛的小行星，
 數字的大小(取絕對值)代表行星的大小。當向右的小行星和向左的小行星進行碰撞，
 會留下絕對值較大的小行星，如果數字相當，則兩個行星皆會消失。
 試問會留下來的行星陣列?
 
-**TIPS:**  
+**TIPS:**
 使用 stack 暫存小行星的狀態
 
 ANS:
@@ -28,7 +30,7 @@ ANS:
 * -1000 <= asteroids[i] <= 1000
 * asteroids[i] != 0
 
-## Python 
+## Python
 
 ```python
 class Solution:
@@ -46,7 +48,7 @@ class Solution:
             else:
                 stack.append(a)
 
-        return stack  
+        return stack
 ```
 Runtime: 7 ms, Memory: 18.9 mb
 
@@ -92,3 +94,8 @@ public:
 ```
 Runtime: 0 ms, Memory: 22.15 mb
 
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

@@ -1,12 +1,14 @@
 # 441. Arranging Coins
 
+> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/arranging-coins/)
+
 🔗 [LeetCode Link](https://leetcode.com/problems/arranging-coins/)
 
-## :beginner: Description
+## 題目摘要
 
 給定 n 個硬幣，試問可以填滿幾層階梯 (階梯為 a1 = 1 的等差數列)
 
-**TIPS:**  
+**TIPS:**
 Binary Search 解法:
 
 1. 從第 1 層至第 i 層可容納的硬幣數由梯形公式 (1+i)*i / 2 求得
@@ -21,10 +23,10 @@ Binary Search 解法:
 → (1 + x)x / 2 = n
 → x = -0.5 + sqrt(2n + 0.25)
 
-**Constraints:**  
+**Constraints:**
 * 1 <= n <= 2^31 - 1
 
-## Python 
+## Python
 
 ```python
 class Solution:
@@ -81,3 +83,8 @@ public:
 ```
 Runtime: 0 ms, Memory: 8.88 mb
 
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

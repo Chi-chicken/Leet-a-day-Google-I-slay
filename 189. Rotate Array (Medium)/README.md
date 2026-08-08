@@ -1,12 +1,14 @@
 # 189. Rotate Array
 
+> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/rotate-array/)
+
 🔗 [LeetCode Link](https://leetcode.com/problems/rotate-array/)
 
-## :beginner: Description
+## 題目摘要
 
 給定一個陣列 nums，讓它向右 rotate k 步
 
-**TIPS:**  
+**TIPS:**
 1. 將整個 nums 倒轉
 2. 倒轉前 k 個元素
 3. 倒轉後 nums.size() - k 個元素
@@ -17,7 +19,7 @@
 * -2^31 <= nums[i] <= 2^31 - 1
 * 0 <= k <= 10^5
 
-## Python 
+## Python
 
 ```python
 class Solution:
@@ -56,3 +58,8 @@ public:
 ```
 Runtime: 0 ms, Memory: 29.5 mb
 
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |

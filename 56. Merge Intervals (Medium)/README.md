@@ -1,18 +1,20 @@
 # 56. Merge Intervals
 
+> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/merge-intervals/)
+
 🔗 [LeetCode Link](https://leetcode.com/problems/merge-intervals/)
 
-## :beginner: Description
+## 題目摘要
 
 把有重疊的區間合併起來，最後只留下「不重疊」的區間集合。
 
-**TIPS:**  
+**TIPS:**
 - 先把所有區間依照起點排序，從左到右掃描區間。
 - 只要區間裡面比較大的數，小於下一個區間的起始數，就代表不重疊，反之則要合併。
 
-## Python 
+## Python
 
-```python 
+```python
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         intervals.sort(key=lambda x : x[0])
@@ -42,3 +44,9 @@ Runtime: 9 ms, Memory: 37.95 mb
 
 ```
 Runtime:  ms, Memory:  mb
+
+## 個人學習紀錄
+
+| 成員 | 首次完成 | 最近複習 | 熟悉度 | 個人筆記 |
+|---|:---:|:---:|:---:|---|
+| GitHub ID | YYYY-MM-DD | YYYY-MM-DD | 1～5 | 容易忘記的觀念、下次複習重點或個人解法連結 |
