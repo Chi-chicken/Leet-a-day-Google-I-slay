@@ -8,18 +8,26 @@
 ./scripts/new-problem.sh 70 "Climbing Stairs" Easy
 ```
 
-工具會建立 `70. Climbing Stairs (Easy)/README.md`，並自動填入題號、題名、難度與 LeetCode 連結。完成筆記後，執行：
+工具會建立 `70. Climbing Stairs (Easy)/README.md`，並自動填入題號、題名、難度與 LeetCode 連結。完成某個語言的解法後，執行：
 
 ```bash
-./scripts/update-index.sh
+./scripts/update-index.sh 70 python
 ```
+
+這會把第 70 題的 Python 欄位標記為 `✅`。支援 `python` 與 `cpp`；如果要改回待完成狀態，可執行：
+
+```bash
+./scripts/update-index.sh 70 python pending
+```
+
+不帶參數執行 `./scripts/update-index.sh` 時，只會重新產生索引，不會改變任何語言狀態。
 
 ## 手動建立
 
 1. 複製 [`0. TEMPLATE/README.md`](./0.%20TEMPLATE/README.md)。
 2. 目錄命名為 `{題號}. {英文題名} ({難度})`。
 3. 替換所有 `{...}` 欄位；沒有使用的語言區塊可以刪除。
-4. 執行 `./scripts/update-index.sh` 更新首頁索引。
+4. 執行 `./scripts/update-index.sh <題號> <python|cpp>` 標記完成並更新索引。
 
 ## 撰寫約定
 

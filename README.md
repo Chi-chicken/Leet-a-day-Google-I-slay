@@ -2,18 +2,12 @@
 
 以 LeetCode 題目累積演算法觀念、解題思路與 Python／C++ 實作的學習紀錄。
 
-## 專案概況
+## 專案導覽
 
-| 題目數 | Easy | Medium | Hard |
-|---:|---:|---:|---:|
-| 79 | 33 | 43 | 3 |
-
-- [查看完整題目索引](./PROBLEMS.md)
+- [查看專案概況與完整題目索引](./PROBLEMS.md)
 - [查看成員學習紀錄](./progress/README.md)
 - [查看題解公版](./0.%20TEMPLATE/README.md)
 - [查看新增題目指南](./CONTRIBUTING.md)
-
-索引中的狀態：`✅` 表示已有題解內容，`📝` 表示已建立筆記骨架、等待補完。
 
 ## 快速新增題目
 
@@ -21,11 +15,13 @@
 ./scripts/new-problem.sh 70 "Climbing Stairs" Easy
 ```
 
-完成題解後更新索引：
+完成某個語言的題解後，標記語言並更新索引：
 
 ```bash
-./scripts/update-index.sh
+./scripts/update-index.sh 2078 cpp
 ```
+
+只重新產生索引、不改變狀態時，執行 `./scripts/update-index.sh`。
 
 腳本會建立符合 `{題號}. {英文題名} ({難度})` 命名規則的目錄，並由公版帶入基本資料。更完整的欄位說明與手動新增方式請見 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 

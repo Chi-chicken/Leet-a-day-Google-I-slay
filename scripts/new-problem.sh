@@ -45,4 +45,4 @@ sed \
     "$project_root/0. TEMPLATE/README.md" > "$target"
 
 echo "Created: $target"
-echo 'Next: fill in the placeholders, then run ./scripts/update-index.sh'
+echo 'Next: finish a solution, then run ./scripts/update-index.sh <number> <python|cpp>'
