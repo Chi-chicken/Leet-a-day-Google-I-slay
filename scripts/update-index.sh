@@ -87,7 +87,9 @@ done < <(find "$project_root" -mindepth 2 -maxdepth 2 -name README.md -print0)
 {
     echo '# 題目索引'
     echo
-    echo '> 此檔案由 `./scripts/update-index.sh` 產生，請勿手動修改。'
+    echo '> [!CAUTION]'
+    echo '> **此檔案由 `./scripts/update-index.sh` 自動產生，請勿手動修改！**'
+    echo '> 手動修改的內容會在下次執行腳本時被覆蓋；請修改題目 README 或語言狀態後，再執行更新腳本。'
     echo
     echo '## 專案概況'
     echo
