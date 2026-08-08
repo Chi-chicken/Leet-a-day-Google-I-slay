@@ -1,13 +1,13 @@
 # 70. Climbing Stairs
 
-> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/climbing-stairs/)
+> 難度：**Easy**
+> 題目連結：[LeetCode](https://leetcode.com/problems/climbing-stairs/)
 
 ## 題目摘要
 
 You are climbing a staircase. It takes `n` steps to reach the top.
 
 Each time you can either climb `1` or `2` steps. In how many distinct ways can you climb to the top?
-
 
 **Example 1:**
 

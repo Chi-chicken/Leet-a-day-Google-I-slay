@@ -44,7 +44,7 @@
 | 102 | [Binary Tree Level Order Traversal](./102.%20Binary%20Tree%20Level%20Order%20Traversal%20(Medium)/README.md) | Medium | ✅ |
 | 108 | [Convert Sorted Array to Binary Search Tree](./108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree%20(Easy)/README.md) | Easy | 📝 |
 | 110 | [Balanced Binary Tree](./110.%20Balanced%20Binary%20Tree%20(Easy)/README.md) | Easy | 📝 |
-| 122 | [Best Time to Sell Stock II](./122.%20Best%20Time%20to%20Sell%20Stock%20II%20(Medium)/README.md) | Medium | 📝 |
+| 122 | [Best Time to Buy and Sell Stock II](./122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II%20(Medium)/README.md) | Medium | 📝 |
 | 125 | [Valid Palindrome](./125.%20Valid%20Palindrome%20(Easy)/README.md) | Easy | ✅ |
 | 136 | [Single Number](./136.%20Single%20Number%20(Easy)/README.md) | Easy | 📝 |
 | 141 | [Linked List Cycle](./141.%20Linked%20List%20Cycle%20(Easy)/README.md) | Easy | ✅ |

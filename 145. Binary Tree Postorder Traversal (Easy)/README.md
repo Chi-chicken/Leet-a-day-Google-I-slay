@@ -1,8 +1,7 @@
 # 145. Binary Tree Postorder Traversal
 
-> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/binary-tree-postorder-traversal/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+> 難度：**Easy**
+> 題目連結：[LeetCode](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 
 ## 題目摘要
 

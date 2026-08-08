@@ -1,8 +1,7 @@
 # 994. Rotting Oranges (Medium)
 
-> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/rotting-oranges/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/rotting-oranges/)
+> 難度：**Medium**
+> 題目連結：[LeetCode](https://leetcode.com/problems/rotting-oranges/)
 
 ## 題目摘要
 

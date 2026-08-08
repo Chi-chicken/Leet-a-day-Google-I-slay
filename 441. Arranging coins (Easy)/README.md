@@ -1,8 +1,7 @@
 # 441. Arranging Coins
 
-> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/arranging-coins/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/arranging-coins/)
+> 難度：**Easy**
+> 題目連結：[LeetCode](https://leetcode.com/problems/arranging-coins/)
 
 ## 題目摘要
 

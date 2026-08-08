@@ -1,8 +1,7 @@
 # 322. Coin Change
 
-> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/coin-change/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/coin-change/)
+> 難度：**Medium**
+> 題目連結：[LeetCode](https://leetcode.com/problems/coin-change/)
 
 ## 題目摘要
 

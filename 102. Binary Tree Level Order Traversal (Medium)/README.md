@@ -1,8 +1,7 @@
 # 102. Binary Tree Level Order Traversal (Medium)
 
-> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+> 難度：**Medium**
+> 題目連結：[LeetCode](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
 ## 題目摘要
 
@@ -56,7 +55,6 @@ Runtime: 0 ms, Memory: 20.07 mb
 Time complexity: O(N) 每個節點只進出 queue 一次
 
 Space complexity: O(N) 最壞情況 queue 會存一整層的節點
-
 
 ## C++
 

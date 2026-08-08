@@ -1,8 +1,7 @@
 # 783. Minimum Distance Between BST Nodes
 
-> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)
+> 難度：**Easy**
+> 題目連結：[LeetCode](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
 
 ## 題目摘要
 

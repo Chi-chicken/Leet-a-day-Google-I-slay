@@ -1,8 +1,7 @@
 # 189. Rotate Array
 
-> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/rotate-array/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/rotate-array/)
+> 難度：**Medium**
+> 題目連結：[LeetCode](https://leetcode.com/problems/rotate-array/)
 
 ## 題目摘要
 

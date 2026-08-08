@@ -1,8 +1,7 @@
 # 3439. Reschedule Meetings for Maximum Free Time I
 
-> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/description/)
+> 難度：**Medium**
+> 題目連結：[LeetCode](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/)
 
 ## 題目摘要
 

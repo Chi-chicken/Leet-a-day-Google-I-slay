@@ -1,8 +1,8 @@
-# 122. Best Time to Sell Stock II
+# 122. Best Time to Buy and Sell Stock II
 
 > 難度：**Medium**
 > 題型：`{題型}`
-> 題目連結：[LeetCode](https://leetcode.com/problems/best-time-to-sell-stock-ii/)
+> 題目連結：[LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 
 ## 題目摘要
 

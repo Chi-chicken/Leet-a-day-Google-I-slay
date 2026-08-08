@@ -1,8 +1,7 @@
 # 3201. Find the Maximum Length of Valid Subsequence I
 
-> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/)
+> 難度：**Medium**
+> 題目連結：[LeetCode](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/)
 
 ## 題目摘要
 

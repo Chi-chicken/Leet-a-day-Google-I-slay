@@ -1,8 +1,7 @@
 # 56. Merge Intervals
 
-> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/merge-intervals/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/merge-intervals/)
+> 難度：**Medium**
+> 題目連結：[LeetCode](https://leetcode.com/problems/merge-intervals/)
 
 ## 題目摘要
 

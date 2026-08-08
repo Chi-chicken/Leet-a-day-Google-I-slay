@@ -1,8 +1,7 @@
 # 141. Linked List Cycle
 
-> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/linked-list-cycle/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/linked-list-cycle/description/)
+> 難度：**Easy**
+> 題目連結：[LeetCode](https://leetcode.com/problems/linked-list-cycle/)
 
 ## 題目摘要
 

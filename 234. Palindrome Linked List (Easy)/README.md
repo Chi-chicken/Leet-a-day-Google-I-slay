@@ -1,8 +1,7 @@
 # 234. Palindrome Linked List (Easy)
 
-> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/palindrome-linked-list/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/palindrome-linked-list/)
+> 難度：**Easy**
+> 題目連結：[LeetCode](https://leetcode.com/problems/palindrome-linked-list/)
 
 ## 題目摘要
 

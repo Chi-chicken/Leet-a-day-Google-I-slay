@@ -1,8 +1,7 @@
 # 144. Binary Tree Preorder Traversal
 
-> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/binary-tree-preorder-traversal/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+> 難度：**Easy**
+> 題目連結：[LeetCode](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 
 ## 題目摘要
 

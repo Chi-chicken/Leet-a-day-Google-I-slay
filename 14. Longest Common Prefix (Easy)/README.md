@@ -1,13 +1,11 @@
 # 14. Longest Common Prefix
 
-> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/longest-common-prefix/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/longest-common-prefix/)
+> 難度：**Easy**
+> 題目連結：[LeetCode](https://leetcode.com/problems/longest-common-prefix/)
 
 ## 題目摘要
 
 找出這些字串中Longest Common Prefix（最長共同前綴)，也就是從最左邊開始，所有字串都一樣的那一段字串
-
 
 ## 解題思路
 水平掃描
@@ -38,7 +36,6 @@ Runtime: 0 ms, Memory: 19.41 mb
 Time complexity: O(S) 所有字串的字元總數
 
 Space complexity: O(1)
-
 
 ## C++
 

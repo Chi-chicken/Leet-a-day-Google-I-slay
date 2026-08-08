@@ -1,15 +1,13 @@
 # 3. Longest Substring Without Repeating Characters
 
-> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+> 難度：**Medium**
+> 題目連結：[LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 ## 題目摘要
 
 Sliding window
 
 ## 解題思路
-
 
 ## Python
 
@@ -39,7 +37,6 @@ Runtime: 34 ms, Memory: 14.89 mb
 Time complexity: O(2n)=O(n)
 
 Space complexity: O(min(m, n))
-
 
 ## C++
 

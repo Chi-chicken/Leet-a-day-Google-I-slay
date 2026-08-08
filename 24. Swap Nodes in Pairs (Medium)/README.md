@@ -1,8 +1,7 @@
 # 24. Swap Nodes in Pairs
 
-> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/swap-nodes-in-pairs/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/swap-nodes-in-pairs/)
+> 難度：**Medium**
+> 題目連結：[LeetCode](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
 ## 題目摘要
 

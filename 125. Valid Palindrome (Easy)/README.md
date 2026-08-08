@@ -1,13 +1,11 @@
 # 125. Valid Palindrome
 
-> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/valid-palindrome/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/valid-palindrome/)
+> 難度：**Easy**
+> 題目連結：[LeetCode](https://leetcode.com/problems/valid-palindrome/)
 
 ## 題目摘要
 
 忽略非英數字元（字母、數字以外的都不算），忽略大小寫，判斷字串是否為回文。
-
 
 ## 解題思路
 Two pointers
@@ -39,7 +37,6 @@ Runtime: 8 ms, Memory: 19.7 mb
 Time complexity: O(n)
 
 Space complexity: O(1)
-
 
 ## C++
 

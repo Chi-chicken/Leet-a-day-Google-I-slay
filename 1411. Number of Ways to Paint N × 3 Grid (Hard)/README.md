@@ -1,8 +1,7 @@
 ## 1411. Number of Ways to Paint N × 3 Grid (Hard)
 
-> 難度：**Hard**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/)
-
-🔗 https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/
+> 難度：**Hard**
+> 題目連結：[LeetCode](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/)
 
 ---
 

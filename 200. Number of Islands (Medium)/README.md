@@ -1,8 +1,7 @@
 # 200. Number of Islands
 
-> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/number-of-islands/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/number-of-islands/)
+> 難度：**Medium**
+> 題目連結：[LeetCode](https://leetcode.com/problems/number-of-islands/)
 
 ## 題目摘要
 
@@ -59,7 +58,6 @@ Runtime: 223 ms, Memory: 21.9 mb
 Time complexity: O(MN) Grid大小
 
 Space complexity: O(MN) 最壞情況 整張都是島("1")
-
 
 ## C++
 

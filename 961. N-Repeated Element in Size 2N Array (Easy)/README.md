@@ -1,8 +1,7 @@
 ## 961. N-Repeated Element in Size 2N Array (Easy)
 
-> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)
-
-🔗 https://leetcode.com/problems/n-repeated-element-in-size-2n-array/
+> 難度：**Easy**
+> 題目連結：[LeetCode](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)
 
 ---
 

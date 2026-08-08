@@ -1,8 +1,7 @@
 # 2348. Number of Zero-Filled Subarrays (Medium)
 
-> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/number-of-zero-filled-subarrays/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/number-of-zero-filled-subarrays/)
+> 難度：**Medium**
+> 題目連結：[LeetCode](https://leetcode.com/problems/number-of-zero-filled-subarrays/)
 
 ## 題目摘要
 

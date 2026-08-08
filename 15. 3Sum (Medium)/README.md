@@ -1,8 +1,7 @@
 # 15. 3Sum
 
-> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/3sum/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/3sum/)
+> 難度：**Medium**
+> 題目連結：[LeetCode](https://leetcode.com/problems/3sum/)
 
 ## 題目摘要
 
@@ -52,7 +51,6 @@ Runtime: 433 ms, Memory: 20.6 mb
 Time complexity: O(n^2)
 
 Space complexity: O(logn)~O(n)
-
 
 ## C++
 

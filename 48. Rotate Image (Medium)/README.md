@@ -1,8 +1,7 @@
 # 48. Rotate Image (Medium)
 
-> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/rotate-image/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/rotate-image/)
+> 難度：**Medium**
+> 題目連結：[LeetCode](https://leetcode.com/problems/rotate-image/)
 
 ## 題目摘要
 

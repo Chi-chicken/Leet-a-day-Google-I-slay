@@ -1,8 +1,7 @@
 # 202. Happy Number (Easy)
 
-> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/happy-number/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/happy-number/)
+> 難度：**Easy**
+> 題目連結：[LeetCode](https://leetcode.com/problems/happy-number/)
 
 ## 題目摘要
 

@@ -1,8 +1,7 @@
 # 1091. Shortest Path in Binary Matrix
 
-> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
+> 難度：**Medium**
+> 題目連結：[LeetCode](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
 
 ## 題目摘要
 

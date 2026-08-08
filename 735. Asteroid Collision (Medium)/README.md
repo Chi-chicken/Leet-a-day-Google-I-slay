@@ -1,8 +1,7 @@
 # 735. Asteroid Collision
 
-> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/asteroid-collision/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/asteroid-collision/)
+> 難度：**Medium**
+> 題目連結：[LeetCode](https://leetcode.com/problems/asteroid-collision/)
 
 ## 題目摘要
 

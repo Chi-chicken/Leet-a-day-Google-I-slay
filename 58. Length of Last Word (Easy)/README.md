@@ -1,13 +1,13 @@
 # 58. Length of Last Word
 
-> 難度：**Easy**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/length-of-last-word/)
+> 難度：**Easy**
+> 題目連結：[LeetCode](https://leetcode.com/problems/length-of-last-word/)
 
 ## 題目摘要
 
 Given a string `s` consisting of words and spaces, return _the length of the **last** word in the string._
 
 A **word** is a maximal substring consisting of non-space characters only.
-
 
 **Example 1:**
 
@@ -17,9 +17,6 @@ A **word** is a maximal substring consisting of non-space characters only.
 >
 >**Explanation:** The last word is "World" with length 5.
 
-
-
-
 **Example 2:**
 
 >**Input:** `s = "   fly me   to   the moon  "`
@@ -28,8 +25,6 @@ A **word** is a maximal substring consisting of non-space characters only.
 >
 >**Explanation:** The last word is "moon" with length 4.
 
-
-
 **Example 3:**
 
 >**Input:** `s = "luffy is still joyboy"`
@@ -37,7 +32,6 @@ A **word** is a maximal substring consisting of non-space characters only.
 >**Output:** `6`
 >
 >**Explanation:** The last word is "joyboy" with length 6.
-
 
 **Constraints:**
 

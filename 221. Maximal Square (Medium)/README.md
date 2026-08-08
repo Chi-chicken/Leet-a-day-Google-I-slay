@@ -1,8 +1,7 @@
 # 221. Maximal Square (Medium)
 
-> 難度：**Medium**  \n> 題目連結：[LeetCode](https://leetcode.com/problems/maximal-square/)
-
-🔗 [LeetCode Link](https://leetcode.com/problems/maximal-square/)
+> 難度：**Medium**
+> 題目連結：[LeetCode](https://leetcode.com/problems/maximal-square/)
 
 ## 題目摘要
 
