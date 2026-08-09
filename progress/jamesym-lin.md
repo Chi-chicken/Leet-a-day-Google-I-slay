@@ -11,7 +11,8 @@
 
 | 題目 | 首次完成 | 最近複習 | 熟悉度 | 語言 | 個人筆記 |
 |---|:---:|:---:|:---:|:---:|---|
-| [2078. Two Furthest Houses With Different Colors](<../2078. Two Furthest Houses With Different Colors (Easy)/README.md>) | 2026-08-08 | YYYY-MM-DD | 3 | C++ | 要讓距離最大，至少有一側應該盡可能靠近陣列邊界 |
+| [435. Non-overlapping Intervals (Medium)](<../435. Non-overlapping Intervals (Medium)/README.md>) | 2026-08-09 | YYYY-MM-DD | 3 | C++ |  |
+| [2078. Two Furthest Houses With Different Colors](<../2078. Two Furthest Houses With Different Colors (Easy)/README.md>) | 2026-08-08 | YYYY-MM-DD | 3 | C++ |  |
 
 ## 待複習
 

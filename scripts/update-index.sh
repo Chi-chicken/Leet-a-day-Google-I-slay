@@ -99,6 +99,7 @@ done < <(find "$project_root" -mindepth 2 -maxdepth 2 -name README.md -print0)
     echo
     echo '- `✅`：已完成該語言的解法'
     echo '- `📝`：尚未完成或等待補充'
+    echo '- [依題型瀏覽題目](./TOPICS.md)'
     echo
     echo '## 完整題目索引'
     echo
@@ -126,3 +127,4 @@ done < <(find "$project_root" -mindepth 2 -maxdepth 2 -name README.md -print0)
 mv "$temporary_file" "$index_file"
 trap - EXIT
 echo "Updated: $index_file"
+"$project_root/scripts/update-topics.sh"

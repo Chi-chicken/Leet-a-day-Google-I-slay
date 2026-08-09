@@ -1,69 +1,21 @@
 # Leet-a-day, Google I Slay
 
-以 LeetCode 題目累積演算法觀念、解題思路與 Python／C++ 實作的學習紀錄。
+多人共同維護的 LeetCode 學習紀錄，整理演算法觀念、解題思路、Python／C++ 實作及個人複習進度。
+
+> [!IMPORTANT]
+> **準備新增題目或更新紀錄前，請先閱讀 [CONTRIBUTING.md](./CONTRIBUTING.md)。** 其中包含完整操作流程、題型格式、索引更新、個人進度與 commit 規範；請勿只根據首頁自行操作。
 
 ## 專案導覽
 
-- [查看專案概況與完整題目索引](./PROBLEMS.md)
-- [查看成員學習紀錄](./progress/README.md)
-- [查看題解公版](./0.%20TEMPLATE/README.md)
-- [查看新增題目指南](./CONTRIBUTING.md)
+- [專案概況與完整題目索引](./PROBLEMS.md)
+- [依題型瀏覽題目](./TOPICS.md)
+- [成員學習紀錄](./progress/README.md)
+- [題解公版](./0.%20TEMPLATE/README.md)
+- [完整貢獻指南](./CONTRIBUTING.md)
 
-## 快速新增題目
+## 專案原則
 
-```bash
-./scripts/new-problem.sh 70 "Climbing Stairs" Easy
-```
-
-完成某個語言的題解後，標記語言並更新索引：
-
-```bash
-./scripts/update-index.sh 2078 cpp
-```
-
-只重新產生索引、不改變狀態時，執行 `./scripts/update-index.sh`。
-
-腳本會建立符合 `{題號}. {英文題名} ({難度})` 命名規則的目錄，並由公版帶入基本資料。更完整的欄位說明與手動新增方式請見 [CONTRIBUTING.md](./CONTRIBUTING.md)。
-
-## 多人學習紀錄
-
-每位成員使用獨立的 `progress/<GitHub 帳號>.md`，集中記錄自己的完成日期、最近複習日期、熟悉度及個人筆記。每題 README 最下方另保留「討論與補充」區塊，專門放共同討論、疑問、替代解法與勘誤，不重複保存個人進度。
-
-第一次加入時建立個人頁面：
-
-```bash
-./scripts/new-member.sh your-github-id "顯示名稱"
-```
-
-例如：
-
-```bash
-./scripts/new-member.sh jamesym-lin "專業打雜詹姆士"
-```
-
-熟悉度統一使用 `1`～`5`：`1` 代表需要重新學習，`3` 代表能在提示下完成，`5` 代表能獨立完成並解釋思路。完整規則請見 [成員學習紀錄](./progress/README.md)。
-
-## 更新紀錄原則
-
-不另外手動維護「誰在何時修改哪一題」的大表。Git 已經保留作者、時間與每一行的修改紀錄，手動再記一次容易遺漏或失真。建議 commit message 使用：
-
-```text
-docs(70): add James's review notes
-feat(200): add Python DFS solution
-```
-
-查詢單題歷史可使用 `git log --follow -- "題目目錄/README.md"`；查詢每一行最後由誰修改可使用 `git blame "題目目錄/README.md"`。
-
-## 題解建議內容
-
-每份筆記盡量包含：
-
-- 題目摘要與原題連結
-- 關鍵觀察與演算法步驟
-- 時間、空間複雜度
-- Python／C++ 實作（可只保留實際使用的語言）
-- 邊界條件、常見陷阱與複習筆記
-
-## Markdown 參考
-
-- [GitHub Markdown 基本語法](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- 題目 README 保存共用題解與討論。
+- `progress/` 保存每位成員自己的練習、複習與熟悉度。
+- `PROBLEMS.md` 與 `TOPICS.md` 由腳本產生，不手動修改。
+- 修改歷史以 Git commit 與 Pull Request 為準。

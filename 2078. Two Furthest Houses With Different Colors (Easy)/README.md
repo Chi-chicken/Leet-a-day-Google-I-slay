@@ -1,7 +1,7 @@
 # 2078. Two Furthest Houses With Different Colors
 
 > 難度：**Easy**
-> 題型：`{題型}`
+> 題型：`Greedy`
 > 題目連結：[LeetCode](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)
 
 ## 題目摘要
@@ -12,6 +12,7 @@
 
 ### 關鍵觀察
 
+- 要讓距離最大，至少有一側應該盡可能靠近陣列邊界
 - 不同顏色的房子的最大距離一定出現在最邊邊的房子和另一頭數過來的其中一棟
 
 ### 演算法
