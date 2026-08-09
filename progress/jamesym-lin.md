@@ -9,8 +9,21 @@
 
 ## 題目紀錄
 
+熟悉度使用以下標準：
+
+| 等級 | 判斷標準 |
+|:---:|---|
+| 1 | 幾乎忘記，需要重新學習 |
+| 2 | 理解題意，但無法獨立完成 |
+| 3 | 在提示下可以完成 |
+| 4 | 可以獨立完成並說明複雜度 |
+| 5 | 可以快速完成、解釋核心觀念及比較其他解法 |
+
 | 題目 | 首次完成 | 最近複習 | 熟悉度 | 語言 | 個人筆記 |
 |---|:---:|:---:|:---:|:---:|---|
+
+| [1. Two Sum (Easy)](<../1. Two Sum (Easy)/README.md>) | 2026-08-09 | YYYY-MM-DD | 4 | C++ |  |
+| [2. Add Two Numbers (Medium)](<../2. Add Two Numbers (Medium)/README.md>) | 2026-08-10 | YYYY-MM-DD | 3 | C++ |  |
 | [435. Non-overlapping Intervals (Medium)](<../435. Non-overlapping Intervals (Medium)/README.md>) | 2026-08-09 | YYYY-MM-DD | 3 | C++ |  |
 | [2078. Two Furthest Houses With Different Colors](<../2078. Two Furthest Houses With Different Colors (Easy)/README.md>) | 2026-08-08 | YYYY-MM-DD | 3 | C++ |  |
 

@@ -8,7 +8,7 @@
 
 | 題目數 | Easy | Medium | Hard | Python 完成 | C++ 完成 |
 |---:|---:|---:|---:|---:|---:|
-| 81 | 34 | 44 | 3 | 29 | 24 |
+| 81 | 34 | 44 | 3 | 29 | 26 |
 
 - `✅`：已完成該語言的解法
 - `📝`：尚未完成或等待補充
@@ -18,8 +18,8 @@
 
 | # | 題目 | 難度 | Python | C++ |
 |--:|---|:---:|:---:|:---:|
-| 1 | [Two Sum](./1.%20Two%20Sum%20(Easy)/README.md) | Easy | 📝 | 📝 |
-| 2 | [Add Two Numbers](./2.%20Add%20Two%20Numbers%20(Medium)/README.md) | Medium | 📝 | 📝 |
+| 1 | [Two Sum](./1.%20Two%20Sum%20(Easy)/README.md) | Easy | 📝 | ✅ |
+| 2 | [Add Two Numbers](./2.%20Add%20Two%20Numbers%20(Medium)/README.md) | Medium | 📝 | ✅ |
 | 3 | [Longest Substring Without Repeating Characters](./3.%20Longest%20Substring%20Without%20Repeating%20Characters%20(Medium)/README.md) | Medium | ✅ | 📝 |
 | 4 | [Median of Two Sorted Arrays](./4.%20Median%20of%20Two%20Sorted%20Arrays%20(Hard)/README.md) | Hard | 📝 | 📝 |
 | 5 | [Longest Palindromic Substring](./5.%20Longest%20Palindromic%20Substring%20(Medium)/README.md) | Medium | 📝 | 📝 |

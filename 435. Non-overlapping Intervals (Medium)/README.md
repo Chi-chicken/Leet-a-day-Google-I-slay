@@ -23,8 +23,8 @@
 
 ## 複雜度
 
-- 時間：`O(nlogn)`
-- 空間：`O(log n)`
+- 時間：`O(nlogn)` bottleneck 是 sorting
+- 空間：`O(log n)` 若計入 std::sort stack：O(log n)
 
 ## Python
 
