@@ -8,7 +8,7 @@
 
 | 題目數 | Easy | Medium | Hard | Python 完成 | C++ 完成 |
 |---:|---:|---:|---:|---:|---:|
-| 81 | 34 | 44 | 3 | 29 | 23 |
+| 81 | 34 | 44 | 3 | 29 | 24 |
 
 - `✅`：已完成該語言的解法
 - `📝`：尚未完成或等待補充
@@ -79,7 +79,7 @@
 | 278 | [First Bad Version](./278.%20First%20Bad%20Version%20(Easy)/README.md) | Easy | 📝 | 📝 |
 | 283 | [Move Zeroes](./283.%20Move%20Zeroes%20(Easy)/README.md) | Easy | 📝 | 📝 |
 | 322 | [Coin Change](./322.%20Coin%20Change%20(Medium)/README.md) | Medium | ✅ | ✅ |
-| 435 | [Non-overlapping Intervals](./435.%20Non-overlapping%20Intervals%20(Medium)/README.md) | Medium | 📝 | 📝 |
+| 435 | [Non-overlapping Intervals](./435.%20Non-overlapping%20Intervals%20(Medium)/README.md) | Medium | 📝 | ✅ |
 | 441 | [Arranging coins](./441.%20Arranging%20coins%20(Easy)/README.md) | Easy | ✅ | ✅ |
 | 496 | [Next Greater Element I](./496.%20Next%20Greater%20Element%20I%20(Easy)/README.md) | Easy | 📝 | 📝 |
 | 503 | [Next Greater Element II](./503.%20Next%20Greater%20Element%20II%20(Medium)/README.md) | Medium | 📝 | 📝 |

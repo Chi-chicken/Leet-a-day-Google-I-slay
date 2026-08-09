@@ -47,7 +47,7 @@ if [[ $# -ge 2 ]]; then
         done)
             if ! has_status "$number" "$language"; then
                 printf '%s\t%s\n' "$number" "$language" >> "$status_file"
-                sort -n -k1,1 -k2,2 -u "$status_file" -o "$status_file"
+                sort -t $'\t' -k1,1n -k2,2 -u "$status_file" -o "$status_file"
             fi
             echo "Marked: problem $number / $language = ✅"
             ;;
