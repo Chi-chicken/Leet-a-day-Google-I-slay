@@ -12,9 +12,8 @@
 
 ### 關鍵觀察
 
-- Hash map 紀錄字元出現的最後位置
-- Sliding Window 的 invariant (不變條件): 在每一輪處理完成後，s[head...i] 一定是不包含重複字元的合法 substring。
-- head 紀錄目前合法子字串開頭位置，且只能向右移
+- 透過 Hash map 紀錄各個字元出現的最後 index
+- Sliding Window 核心: 右邊負責探索，左邊負責修正，整個過程維持 window 的合法條件 (在此題中為不重複字元的子字串)
 
 ### 演算法
 
@@ -84,10 +83,11 @@ Space complexity: O(1) 不論字串長度都只使用 256 個 int
 
 - {容易忽略的邊界條件}
 - {值得複習的觀念或其他解法}
+- 當遇到 ASCII 作為 hash map 的 key 時，可以宣告元素數目為 128 或 256 的整數陣列作為 map。本質上就是拿該字元的數值編碼當 array index
 - 一般 ASCII 字元可以用一個 byte 表示，所以宣告 256 個元素則可以涵蓋一個 unsigned char 所有可能的 byte 值
- - 只有 a-z          → 26
- - ASCII             → 128
- - 任意 byte/char    → 256
+   - 只有 a-z          → 26
+   - ASCII             → 128
+   - 任意 byte/char    → 256
 
 ## 討論與補充
 

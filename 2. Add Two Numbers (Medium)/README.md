@@ -17,7 +17,7 @@
 
 ### 演算法
 
-1. 創建一 dummyhead，存放總和 linked currnode 記錄當下走到的節點；整數 carry 記錄進位
+1. 創建一 dummyhead，存放總和 linked list；currnode 記錄當下走到的節點；整數 carry 記錄進位
 2. 跑 while 迴圈，條件是其中一個 linked list 不為 nullptr，或是 carry 不為 0
 3. 迴圈內部將兩個 linked list 當下節點(如果有的話)的數值和 carry 相加，並創建 newnode 紀錄該數字，並更新 carry
 4. newnode 接在 currnode->next 之後，並將 currnode 更新成 currnode->next
