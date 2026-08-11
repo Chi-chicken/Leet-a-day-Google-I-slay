@@ -14,7 +14,7 @@
 
 | 題型 | 題目數 |
 |---|---:|
-| Greedy | 2 |
+| Greedy | 3 |
 | Hash Table | 2 |
 | Linked List | 1 |
 | Sliding Window | 1 |
@@ -23,6 +23,7 @@
 ## Greedy
 
 - [435. Non-overlapping Intervals](./435.%20Non-overlapping%20Intervals%20(Medium)/README.md) — Medium
+- [452. Minimum Number of Arrows to Burst Balloons](./452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons%20(Medium)/README.md) — Medium
 - [2078. Two Furthest Houses With Different Colors](./2078.%20Two%20Furthest%20Houses%20With%20Different%20Colors%20(Easy)/README.md) — Easy
 
 ## Hash Table
