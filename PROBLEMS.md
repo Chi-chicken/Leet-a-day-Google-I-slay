@@ -8,7 +8,7 @@
 
 | 題目數 | Easy | Medium | Hard | Python 完成 | C++ 完成 |
 |---:|---:|---:|---:|---:|---:|
-| 81 | 34 | 44 | 3 | 29 | 27 |
+| 82 | 34 | 45 | 3 | 29 | 28 |
 
 - `✅`：已完成該語言的解法
 - `📝`：尚未完成或等待補充
@@ -81,6 +81,7 @@
 | 322 | [Coin Change](./322.%20Coin%20Change%20(Medium)/README.md) | Medium | ✅ | ✅ |
 | 435 | [Non-overlapping Intervals](./435.%20Non-overlapping%20Intervals%20(Medium)/README.md) | Medium | 📝 | ✅ |
 | 441 | [Arranging coins](./441.%20Arranging%20coins%20(Easy)/README.md) | Easy | ✅ | ✅ |
+| 452 | [Minimum Number of Arrows to Burst Balloons](./452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons%20(Medium)/README.md) | Medium | 📝 | ✅ |
 | 496 | [Next Greater Element I](./496.%20Next%20Greater%20Element%20I%20(Easy)/README.md) | Easy | 📝 | 📝 |
 | 503 | [Next Greater Element II](./503.%20Next%20Greater%20Element%20II%20(Medium)/README.md) | Medium | 📝 | 📝 |
 | 543 | [Diameter of Binary Tree](./543.%20Diameter%20of%20Binary%20Tree%20(Easy)/README.md) | Easy | 📝 | 📝 |
