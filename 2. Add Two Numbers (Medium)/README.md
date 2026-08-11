@@ -79,6 +79,7 @@ public:
 
 - {容易忽略的邊界條件}
 - {值得複習的觀念或其他解法}
+- dummyhead 可以建立在 stack 上避免 memory leak
 
 ## 討論與補充
 

@@ -21,11 +21,11 @@
 
 | 題目 | 首次完成 | 最近複習 | 熟悉度 | 語言 | 個人筆記 |
 |---|:---:|:---:|:---:|:---:|---|
-
 | [1. Two Sum (Easy)](<../1. Two Sum (Easy)/README.md>) | 2026-08-09 | YYYY-MM-DD | 4 | C++ |  |
 | [2. Add Two Numbers (Medium)](<../2. Add Two Numbers (Medium)/README.md>) | 2026-08-10 | YYYY-MM-DD | 3 | C++ |  |
+| [3. Longest Substring Without Repeating Characters (Medium)](<../3. Longest Substring Without Repeating Characters (Medium)/README.md>) | 2026-08-11 | YYYY-MM-DD | 3 | C++ |  |
 | [435. Non-overlapping Intervals (Medium)](<../435. Non-overlapping Intervals (Medium)/README.md>) | 2026-08-09 | YYYY-MM-DD | 3 | C++ |  |
-| [2078. Two Furthest Houses With Different Colors](<../2078. Two Furthest Houses With Different Colors (Easy)/README.md>) | 2026-08-08 | YYYY-MM-DD | 3 | C++ |  |
+| [2078. Two Furthest Houses With Different Colors (Easy)](<../2078. Two Furthest Houses With Different Colors (Easy)/README.md>) | 2026-08-08 | YYYY-MM-DD | 3 | C++ |  |
 
 ## 待複習
 

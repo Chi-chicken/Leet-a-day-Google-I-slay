@@ -15,8 +15,9 @@
 | 題型 | 題目數 |
 |---|---:|
 | Greedy | 2 |
-| Hash Table | 1 |
+| Hash Table | 2 |
 | Linked List | 1 |
+| Sliding Window | 1 |
 | Sorting | 1 |
 
 ## Greedy
@@ -27,10 +28,15 @@
 ## Hash Table
 
 - [1. Two Sum](./1.%20Two%20Sum%20(Easy)/README.md) — Easy
+- [3. Longest Substring Without Repeating Characters](./3.%20Longest%20Substring%20Without%20Repeating%20Characters%20(Medium)/README.md) — Medium
 
 ## Linked List
 
 - [2. Add Two Numbers](./2.%20Add%20Two%20Numbers%20(Medium)/README.md) — Medium
+
+## Sliding Window
+
+- [3. Longest Substring Without Repeating Characters](./3.%20Longest%20Substring%20Without%20Repeating%20Characters%20(Medium)/README.md) — Medium
 
 ## Sorting
 
