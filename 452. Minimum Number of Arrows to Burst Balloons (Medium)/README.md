@@ -1,7 +1,7 @@
 # 452. Minimum Number of Arrows to Burst Balloons
 
 > 難度：**Medium**
-> 題型：`{題型}`
+> 題型：`Greedy`
 > 題目連結：[LeetCode](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 
 ## 題目摘要
