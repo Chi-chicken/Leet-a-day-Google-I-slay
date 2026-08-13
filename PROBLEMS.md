@@ -8,7 +8,7 @@
 
 | 題目數 | Easy | Medium | Hard | Python 完成 | C++ 完成 |
 |---:|---:|---:|---:|---:|---:|
-| 84 | 36 | 45 | 3 | 29 | 30 |
+| 86 | 36 | 47 | 3 | 29 | 32 |
 
 - `✅`：已完成該語言的解法
 - `📝`：尚未完成或等待補充
@@ -95,10 +95,12 @@
 | 961 | [N-Repeated Element in Size 2N Array](./961.%20N-Repeated%20Element%20in%20Size%202N%20Array%20(Easy)/README.md) | Easy | 📝 | ✅ |
 | 994 | [Rotting Oranges](./994.%20Rotting%20Oranges%20(Medium)/README.md) | Medium | ✅ | ✅ |
 | 1091 | [Shortest Path in Binary Matrix](./1091.%20Shortest%20Path%20in%20Binary%20Matrix%20(Medium)/README.md) | Medium | ✅ | ✅ |
+| 1161 | [Maximum Level Sum of a Binary Tree](./1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree%20(Medium)/README.md) | Medium | 📝 | ✅ |
 | 1277 | [Count Square Submatrices with All Ones](./1277.%20Count%20Square%20Submatrices%20with%20All%20Ones%20(Medium)/README.md) | Medium | 📝 | 📝 |
 | 1411 | [Number of Ways to Paint N × 3 Grid](./1411.%20Number%20of%20Ways%20to%20Paint%20N%20×%203%20Grid%20(Hard)/README.md) | Hard | 📝 | ✅ |
 | 2078 | [Two Furthest Houses With Different Colors](./2078.%20Two%20Furthest%20Houses%20With%20Different%20Colors%20(Easy)/README.md) | Easy | 📝 | ✅ |
 | 2200 | [Find All K-Distant Indices in an Array](./2200.%20Find%20All%20K-Distant%20Indices%20in%20an%20Array%20(Easy)/README.md) | Easy | 📝 | 📝 |
 | 2348 | [Number of Zero-Filled Subarrays](./2348.%20Number%20of%20Zero-Filled%20Subarrays%20(Medium)/README.md) | Medium | ✅ | ✅ |
+| 2958 | [Length of Longest Subarray With at Most K Frequency](./2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency%20(Medium)/README.md) | Medium | 📝 | ✅ |
 | 3201 | [Find the Maximum Length of Valid Subsequence I](./3201.%20Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20I%20(Medium)/README.md) | Medium | ✅ | ✅ |
 | 3439 | [Reschedule Meetings for Maximum Free Time I](./3439.%20Reschedule%20Meetings%20for%20Maximum%20Free%20Time%20I%20(Medium)/README.md) | Medium | ✅ | ✅ |

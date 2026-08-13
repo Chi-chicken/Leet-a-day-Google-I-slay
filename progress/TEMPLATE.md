@@ -12,7 +12,6 @@
 
 | 題目 | 首次完成 | 最近複習 | 熟悉度 | 語言 | 個人筆記 |
 |---|:---:|:---:|:---:|:---:|---|
-| [70. Climbing Stairs](../70.%20Climbing%20Stairs%20(Easy)/README.md) | YYYY-MM-DD | YYYY-MM-DD | 3 | Python | 注意初始狀態與空間最佳化 |
 
 ## 待複習
 

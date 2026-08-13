@@ -83,6 +83,20 @@
 
 接著在 `progress/README.md` 的成員列表加入連結。每次完成或複習題目，只更新自己的 `progress/<GitHub ID>.md`；日期使用 `YYYY-MM-DD`。
 
+將既有題目快速加入個人進度：
+
+```bash
+./scripts/add-progress.sh <GitHub-ID> <題號> <熟悉度:1-5> <python|cpp> [個人筆記]
+```
+
+例如：
+
+```bash
+./scripts/add-progress.sh jamesym-lin 860 4 cpp "Greedy：逐筆檢查找零是否足夠"
+```
+
+腳本會自動取得題名與 README 路徑，以執行當天作為首次完成日期，並依題號插入表格。若該題已在個人頁面中，腳本會停止，請直接修改既有紀錄；複習日期也請更新原有列。
+
 從個人頁面連到題目時，路徑需要先回到上一層：
 
 ```markdown

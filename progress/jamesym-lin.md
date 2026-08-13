@@ -4,8 +4,62 @@
 
 ## 學習目標
 
-- {近期目標，例如：完成 20 題 Dynamic Programming}
-- {預計練習頻率}
+- BFS 練習順序
+Binary Tree Level BFS
+        ↓
+102. Binary Tree Level Order Traversal
+        ↓
+199. Binary Tree Right Side View
+        ↓
+515. Find Largest Value in Each Tree Row
+        ↓
+1161. Maximum Level Sum
+        ↓
+Grid BFS
+        ↓
+733. Flood Fill
+        ↓
+200. Number of Islands
+        ↓
+994. Rotting Oranges
+        ↓
+Shortest Path BFS
+        ↓
+1091. Shortest Path in Binary Matrix
+        ↓
+752. Open the Lock
+        ↓
+127. Word Ladder
+
+其中如果只挑 5 題建立 BFS 核心能力，我會選：
+
+102. Binary Tree Level Order Traversal
+200. Number of Islands
+994. Rotting Oranges
+1091. Shortest Path in Binary Matrix
+752. Open the Lock
+
+- 如果只挑 10 題建立 Greedy 基礎，我會按照這個順序：
+
+455 Assign Cookies
+↓
+860 Lemonade Change
+↓
+121 Best Time to Buy and Sell Stock
+↓
+55 Jump Game
+↓
+763 Partition Labels
+↓
+435 Non-overlapping Intervals
+↓
+452 Minimum Number of Arrows
+↓
+45 Jump Game II
+↓
+134 Gas Station
+↓
+135 Candy
 
 ## 題目紀錄
 
@@ -28,9 +82,9 @@
 | [435. Non-overlapping Intervals (Medium)](<../435. Non-overlapping Intervals (Medium)/README.md>) | 2026-08-09 | YYYY-MM-DD | 3 | C++ |  |
 | [452. Minimum Number of Arrows to Burst Balloons (Medium)](<../452. Minimum Number of Arrows to Burst Balloons (Medium)/README.md>) | 2026-08-12 | YYYY-MM-DD | 4 | C++ |  |
 | [860. Lemonade Change (Easy)](<../860. Lemonade Change (Easy)/README.md>) | 2026-08-13 | YYYY-MM-DD | 4 | C++ |  |
+| [1161. Maximum Level Sum of a Binary Tree (Medium)](<../1161. Maximum Level Sum of a Binary Tree (Medium)/README.md>) | 2026-08-14 | YYYY-MM-DD | 3 | C++ |  |
 | [2078. Two Furthest Houses With Different Colors (Easy)](<../2078. Two Furthest Houses With Different Colors (Easy)/README.md>) | 2026-08-08 | YYYY-MM-DD | 3 | C++ |  |
-
-
+| [2958. Length of Longest Subarray With at Most K Frequency (Medium)](<../2958. Length of Longest Subarray With at Most K Frequency (Medium)/README.md>) | 2026-08-14 | YYYY-MM-DD | 4 | C++ |  |
 ## 待複習
 
 - [ ] {題號與題名} — {需要加強的原因}
