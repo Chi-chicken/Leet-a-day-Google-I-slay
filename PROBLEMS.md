@@ -8,7 +8,7 @@
 
 | 題目數 | Easy | Medium | Hard | Python 完成 | C++ 完成 |
 |---:|---:|---:|---:|---:|---:|
-| 82 | 34 | 45 | 3 | 29 | 28 |
+| 84 | 36 | 45 | 3 | 29 | 30 |
 
 - `✅`：已完成該語言的解法
 - `📝`：尚未完成或等待補充
@@ -58,6 +58,7 @@
 | 102 | [Binary Tree Level Order Traversal](./102.%20Binary%20Tree%20Level%20Order%20Traversal%20(Medium)/README.md) | Medium | ✅ | 📝 |
 | 108 | [Convert Sorted Array to Binary Search Tree](./108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree%20(Easy)/README.md) | Easy | 📝 | 📝 |
 | 110 | [Balanced Binary Tree](./110.%20Balanced%20Binary%20Tree%20(Easy)/README.md) | Easy | 📝 | 📝 |
+| 121 | [Best Time to Buy and Sell Stock](./121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20(Easy)/README.md) | Easy | 📝 | ✅ |
 | 122 | [Best Time to Buy and Sell Stock II](./122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II%20(Medium)/README.md) | Medium | 📝 | 📝 |
 | 125 | [Valid Palindrome](./125.%20Valid%20Palindrome%20(Easy)/README.md) | Easy | ✅ | 📝 |
 | 136 | [Single Number](./136.%20Single%20Number%20(Easy)/README.md) | Easy | 📝 | 📝 |
@@ -89,6 +90,7 @@
 | 733 | [Flood Fill](./733.%20Flood%20Fill%20(Easy)/README.md) | Easy | ✅ | ✅ |
 | 735 | [Asteroid Collision](./735.%20Asteroid%20Collision%20(Medium)/README.md) | Medium | ✅ | ✅ |
 | 783 | [Minimum Distance Between BST Nodes](./783.%20Minimum%20Distance%20Between%20BST%20Nodes%20(Easy)/README.md) | Easy | ✅ | ✅ |
+| 860 | [Lemonade Change](./860.%20Lemonade%20Change%20(Easy)/README.md) | Easy | 📝 | ✅ |
 | 876 | [Middle of the Linked List](./876.%20Middle%20of%20the%20Linked%20List%20(Easy)/README.md) | Easy | 📝 | 📝 |
 | 961 | [N-Repeated Element in Size 2N Array](./961.%20N-Repeated%20Element%20in%20Size%202N%20Array%20(Easy)/README.md) | Easy | 📝 | ✅ |
 | 994 | [Rotting Oranges](./994.%20Rotting%20Oranges%20(Medium)/README.md) | Medium | ✅ | ✅ |

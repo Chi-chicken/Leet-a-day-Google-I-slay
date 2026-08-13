@@ -14,7 +14,7 @@
 
 | 題型 | 題目數 |
 |---|---:|
-| Greedy | 3 |
+| Greedy | 5 |
 | Hash Table | 2 |
 | Linked List | 1 |
 | Sliding Window | 1 |
@@ -22,8 +22,10 @@
 
 ## Greedy
 
+- [121. Best Time to Buy and Sell Stock](./121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20(Easy)/README.md) — Easy
 - [435. Non-overlapping Intervals](./435.%20Non-overlapping%20Intervals%20(Medium)/README.md) — Medium
 - [452. Minimum Number of Arrows to Burst Balloons](./452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons%20(Medium)/README.md) — Medium
+- [860. Lemonade Change](./860.%20Lemonade%20Change%20(Easy)/README.md) — Easy
 - [2078. Two Furthest Houses With Different Colors](./2078.%20Two%20Furthest%20Houses%20With%20Different%20Colors%20(Easy)/README.md) — Easy
 
 ## Hash Table
