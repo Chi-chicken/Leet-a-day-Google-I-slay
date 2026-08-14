@@ -8,7 +8,7 @@
 
 | 題目數 | Easy | Medium | Hard | Python 完成 | C++ 完成 |
 |---:|---:|---:|---:|---:|---:|
-| 86 | 36 | 47 | 3 | 29 | 32 |
+| 87 | 37 | 47 | 3 | 29 | 33 |
 
 - `✅`：已完成該語言的解法
 - `📝`：尚未完成或等待補充
@@ -102,5 +102,6 @@
 | 2200 | [Find All K-Distant Indices in an Array](./2200.%20Find%20All%20K-Distant%20Indices%20in%20an%20Array%20(Easy)/README.md) | Easy | 📝 | 📝 |
 | 2348 | [Number of Zero-Filled Subarrays](./2348.%20Number%20of%20Zero-Filled%20Subarrays%20(Medium)/README.md) | Medium | ✅ | ✅ |
 | 2958 | [Length of Longest Subarray With at Most K Frequency](./2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency%20(Medium)/README.md) | Medium | 📝 | ✅ |
+| 3090 | [Maximum Length Substring With Two Occurrences](./3090.%20Maximum%20Length%20Substring%20With%20Two%20Occurrences%20(Easy)/README.md) | Easy | 📝 | ✅ |
 | 3201 | [Find the Maximum Length of Valid Subsequence I](./3201.%20Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20I%20(Medium)/README.md) | Medium | ✅ | ✅ |
 | 3439 | [Reschedule Meetings for Maximum Free Time I](./3439.%20Reschedule%20Meetings%20for%20Maximum%20Free%20Time%20I%20(Medium)/README.md) | Medium | ✅ | ✅ |

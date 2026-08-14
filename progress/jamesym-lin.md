@@ -85,6 +85,7 @@ Shortest Path BFS
 | [1161. Maximum Level Sum of a Binary Tree (Medium)](<../1161. Maximum Level Sum of a Binary Tree (Medium)/README.md>) | 2026-08-14 | YYYY-MM-DD | 3 | C++ |  |
 | [2078. Two Furthest Houses With Different Colors (Easy)](<../2078. Two Furthest Houses With Different Colors (Easy)/README.md>) | 2026-08-08 | YYYY-MM-DD | 3 | C++ |  |
 | [2958. Length of Longest Subarray With at Most K Frequency (Medium)](<../2958. Length of Longest Subarray With at Most K Frequency (Medium)/README.md>) | 2026-08-14 | YYYY-MM-DD | 4 | C++ |  |
+| [3090. Maximum Length Substring With Two Occurrences (Easy)](<../3090. Maximum Length Substring With Two Occurrences (Easy)/README.md>) | 2026-08-15 | YYYY-MM-DD | 5 | C++ |  |
 ## 待複習
 
 - [ ] {題號與題名} — {需要加強的原因}

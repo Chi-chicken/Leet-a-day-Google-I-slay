@@ -18,7 +18,7 @@
 | Greedy | 5 |
 | Hash Table | 3 |
 | Linked List | 1 |
-| Sliding Window | 2 |
+| Sliding Window | 3 |
 | Sorting | 1 |
 | Tree | 1 |
 
@@ -48,6 +48,7 @@
 
 - [3. Longest Substring Without Repeating Characters](./3.%20Longest%20Substring%20Without%20Repeating%20Characters%20(Medium)/README.md) — Medium
 - [2958. Length of Longest Subarray With at Most K Frequency](./2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency%20(Medium)/README.md) — Medium
+- [3090. Maximum Length Substring With Two Occurrences](./3090.%20Maximum%20Length%20Substring%20With%20Two%20Occurrences%20(Easy)/README.md) — Easy
 
 ## Sorting
 
