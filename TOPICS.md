@@ -14,13 +14,24 @@
 
 | 題型 | 題目數 |
 |---|---:|
+| Binary Search | 1 |
+| Bit Manipulation | 1 |
 | Breadth-First Search | 1 |
-| Greedy | 5 |
+| Greedy | 6 |
 | Hash Table | 3 |
 | Linked List | 1 |
 | Sliding Window | 3 |
 | Sorting | 1 |
 | Tree | 1 |
+| Two Pointers | 1 |
+
+## Binary Search
+
+- [33. Search in Rotated Sorted Array](./33.%20Search%20in%20Rotated%20Sorted%20Array%20(Medium)/README.md) — Medium
+
+## Bit Manipulation
+
+- [3702. Longest Subsequence With Non-Zero Bitwise XOR](./3702.%20Longest%20Subsequence%20With%20Non-Zero%20Bitwise%20XOR%20(Medium)/README.md) — Medium
 
 ## Breadth-First Search
 
@@ -31,6 +42,7 @@
 - [121. Best Time to Buy and Sell Stock](./121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20(Easy)/README.md) — Easy
 - [435. Non-overlapping Intervals](./435.%20Non-overlapping%20Intervals%20(Medium)/README.md) — Medium
 - [452. Minimum Number of Arrows to Burst Balloons](./452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons%20(Medium)/README.md) — Medium
+- [455. Assign Cookies](./455.%20Assign%20Cookies%20(Easy)/README.md) — Easy
 - [860. Lemonade Change](./860.%20Lemonade%20Change%20(Easy)/README.md) — Easy
 - [2078. Two Furthest Houses With Different Colors](./2078.%20Two%20Furthest%20Houses%20With%20Different%20Colors%20(Easy)/README.md) — Easy
 
@@ -57,3 +69,7 @@
 ## Tree
 
 - [1161. Maximum Level Sum of a Binary Tree](./1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree%20(Medium)/README.md) — Medium
+
+## Two Pointers
+
+- [455. Assign Cookies](./455.%20Assign%20Cookies%20(Easy)/README.md) — Easy

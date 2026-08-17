@@ -61,6 +61,26 @@ Shortest Path BFS
 ↓
 135 Candy
 
+- Sliding Window 練習順序: 3. Longest Substring Without Repeating Characters、904. Fruit Into Baskets、1004. Max Consecutive Ones III、424. Longest Repeating Character Replacement。
+
+- Binary Search:
+33  Search in Rotated Sorted Array ✅
+ │
+ ▼
+153 Find Minimum in Rotated Sorted Array
+ │
+ ▼
+34  Find First and Last Position
+ │
+ ▼
+162 Find Peak Element
+ │
+ ▼
+875 Koko Eating Bananas
+ │
+ ▼
+1011 Capacity To Ship Packages
+
 ## 題目紀錄
 
 熟悉度使用以下標準：
@@ -78,14 +98,17 @@ Shortest Path BFS
 | [1. Two Sum (Easy)](<../1. Two Sum (Easy)/README.md>) | 2026-08-09 | YYYY-MM-DD | 4 | C++ |  |
 | [2. Add Two Numbers (Medium)](<../2. Add Two Numbers (Medium)/README.md>) | 2026-08-10 | YYYY-MM-DD | 3 | C++ |  |
 | [3. Longest Substring Without Repeating Characters (Medium)](<../3. Longest Substring Without Repeating Characters (Medium)/README.md>) | 2026-08-11 | YYYY-MM-DD | 3 | C++ |  |
+| [33. Search in Rotated Sorted Array (Medium)](<../33. Search in Rotated Sorted Array (Medium)/README.md>) | 2026-08-16 | YYYY-MM-DD | 1 | C++ |  |
 | [121. Best Time to Buy and Sell Stock (Easy)](<../121. Best Time to Buy and Sell Stock (Easy)/README.md>) | 2026-08-13 | YYYY-MM-DD | 4 | C++ |  |
 | [435. Non-overlapping Intervals (Medium)](<../435. Non-overlapping Intervals (Medium)/README.md>) | 2026-08-09 | YYYY-MM-DD | 3 | C++ |  |
 | [452. Minimum Number of Arrows to Burst Balloons (Medium)](<../452. Minimum Number of Arrows to Burst Balloons (Medium)/README.md>) | 2026-08-12 | YYYY-MM-DD | 4 | C++ |  |
+| [455. Assign Cookies (Easy)](<../455. Assign Cookies (Easy)/README.md>) | 2026-08-18 | YYYY-MM-DD | 4 | C++ |  |
 | [860. Lemonade Change (Easy)](<../860. Lemonade Change (Easy)/README.md>) | 2026-08-13 | YYYY-MM-DD | 4 | C++ |  |
 | [1161. Maximum Level Sum of a Binary Tree (Medium)](<../1161. Maximum Level Sum of a Binary Tree (Medium)/README.md>) | 2026-08-14 | YYYY-MM-DD | 3 | C++ |  |
 | [2078. Two Furthest Houses With Different Colors (Easy)](<../2078. Two Furthest Houses With Different Colors (Easy)/README.md>) | 2026-08-08 | YYYY-MM-DD | 3 | C++ |  |
 | [2958. Length of Longest Subarray With at Most K Frequency (Medium)](<../2958. Length of Longest Subarray With at Most K Frequency (Medium)/README.md>) | 2026-08-14 | YYYY-MM-DD | 4 | C++ |  |
 | [3090. Maximum Length Substring With Two Occurrences (Easy)](<../3090. Maximum Length Substring With Two Occurrences (Easy)/README.md>) | 2026-08-15 | YYYY-MM-DD | 5 | C++ |  |
+| [3702. Longest Subsequence With Non-Zero Bitwise XOR (Medium)](<../3702. Longest Subsequence With Non-Zero Bitwise XOR (Medium)/README.md>) | 2026-08-18 | YYYY-MM-DD | 3 | C++ |  |
 ## 待複習
 
 - [ ] {題號與題名} — {需要加強的原因}
