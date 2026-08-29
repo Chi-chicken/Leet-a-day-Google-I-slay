@@ -8,7 +8,7 @@
 
 | 題目數 | Easy | Medium | Hard | Python 完成 | C++ 完成 |
 |---:|---:|---:|---:|---:|---:|
-| 89 | 38 | 48 | 3 | 29 | 36 |
+| 90 | 39 | 48 | 3 | 29 | 38 |
 
 - `✅`：已完成該語言的解法
 - `📝`：尚未完成或等待補充
@@ -55,7 +55,7 @@
 | 88 | [Merge Sorted Array](./88.%20Merge%20Sorted%20Array%20(Easy)/README.md) | Easy | 📝 | 📝 |
 | 94 | [Binary Tree Inorder Traversal](./94.%20Binary%20Tree%20Inorder%20Traversal%20(Easy)/README.md) | Easy | ✅ | ✅ |
 | 101 | [Symmetric Tree](./101.%20Symmetric%20Tree%20(Easy)/README.md) | Easy | 📝 | 📝 |
-| 102 | [Binary Tree Level Order Traversal](./102.%20Binary%20Tree%20Level%20Order%20Traversal%20(Medium)/README.md) | Medium | ✅ | 📝 |
+| 102 | [Binary Tree Level Order Traversal](./102.%20Binary%20Tree%20Level%20Order%20Traversal%20(Medium)/README.md) | Medium | ✅ | ✅ |
 | 108 | [Convert Sorted Array to Binary Search Tree](./108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree%20(Easy)/README.md) | Easy | 📝 | 📝 |
 | 110 | [Balanced Binary Tree](./110.%20Balanced%20Binary%20Tree%20(Easy)/README.md) | Easy | 📝 | 📝 |
 | 121 | [Best Time to Buy and Sell Stock](./121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20(Easy)/README.md) | Easy | 📝 | ✅ |
@@ -107,3 +107,4 @@
 | 3201 | [Find the Maximum Length of Valid Subsequence I](./3201.%20Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20I%20(Medium)/README.md) | Medium | ✅ | ✅ |
 | 3439 | [Reschedule Meetings for Maximum Free Time I](./3439.%20Reschedule%20Meetings%20for%20Maximum%20Free%20Time%20I%20(Medium)/README.md) | Medium | ✅ | ✅ |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](./3702.%20Longest%20Subsequence%20With%20Non-Zero%20Bitwise%20XOR%20(Medium)/README.md) | Medium | 📝 | ✅ |
+| 3718 | [Smallest Missing Multiple of K](./3718.%20Smallest%20Missing%20Multiple%20of%20K%20(Easy)/README.md) | Easy | 📝 | ✅ |

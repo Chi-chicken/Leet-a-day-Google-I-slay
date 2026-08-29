@@ -7,7 +7,7 @@
 - BFS 練習順序
 Binary Tree Level BFS
         ↓
-102. Binary Tree Level Order Traversal
+102. Binary Tree Level Order Traversal ✅
         ↓
 199. Binary Tree Right Side View
         ↓
@@ -41,11 +41,11 @@ Shortest Path BFS
 
 - 如果只挑 10 題建立 Greedy 基礎，我會按照這個順序：
 
-455 Assign Cookies
+455 Assign Cookies ✅
 ↓
-860 Lemonade Change
+860 Lemonade Change ✅
 ↓
-121 Best Time to Buy and Sell Stock
+121 Best Time to Buy and Sell Stock ✅
 ↓
 55 Jump Game
 ↓
@@ -99,6 +99,7 @@ Shortest Path BFS
 | [2. Add Two Numbers (Medium)](<../2. Add Two Numbers (Medium)/README.md>) | 2026-08-10 | YYYY-MM-DD | 3 | C++ |  |
 | [3. Longest Substring Without Repeating Characters (Medium)](<../3. Longest Substring Without Repeating Characters (Medium)/README.md>) | 2026-08-11 | YYYY-MM-DD | 3 | C++ |  |
 | [33. Search in Rotated Sorted Array (Medium)](<../33. Search in Rotated Sorted Array (Medium)/README.md>) | 2026-08-16 | YYYY-MM-DD | 1 | C++ |  |
+| [102. Binary Tree Level Order Traversal (Medium)](<../102. Binary Tree Level Order Traversal (Medium)/README.md>) | 2026-08-27 | YYYY-MM-DD | 4 | C++ |  |
 | [121. Best Time to Buy and Sell Stock (Easy)](<../121. Best Time to Buy and Sell Stock (Easy)/README.md>) | 2026-08-13 | YYYY-MM-DD | 4 | C++ |  |
 | [435. Non-overlapping Intervals (Medium)](<../435. Non-overlapping Intervals (Medium)/README.md>) | 2026-08-09 | YYYY-MM-DD | 3 | C++ |  |
 | [452. Minimum Number of Arrows to Burst Balloons (Medium)](<../452. Minimum Number of Arrows to Burst Balloons (Medium)/README.md>) | 2026-08-12 | YYYY-MM-DD | 4 | C++ |  |
@@ -109,6 +110,7 @@ Shortest Path BFS
 | [2958. Length of Longest Subarray With at Most K Frequency (Medium)](<../2958. Length of Longest Subarray With at Most K Frequency (Medium)/README.md>) | 2026-08-14 | YYYY-MM-DD | 4 | C++ |  |
 | [3090. Maximum Length Substring With Two Occurrences (Easy)](<../3090. Maximum Length Substring With Two Occurrences (Easy)/README.md>) | 2026-08-15 | YYYY-MM-DD | 5 | C++ |  |
 | [3702. Longest Subsequence With Non-Zero Bitwise XOR (Medium)](<../3702. Longest Subsequence With Non-Zero Bitwise XOR (Medium)/README.md>) | 2026-08-18 | YYYY-MM-DD | 3 | C++ |  |
+| [3718. Smallest Missing Multiple of K (Easy)](<../3718. Smallest Missing Multiple of K (Easy)/README.md>) | 2026-08-27 | YYYY-MM-DD | 4 | C++ |  |
 ## 待複習
 
 - [ ] {題號與題名} — {需要加強的原因}

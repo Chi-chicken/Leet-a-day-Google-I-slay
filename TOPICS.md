@@ -16,9 +16,9 @@
 |---|---:|
 | Binary Search | 1 |
 | Bit Manipulation | 1 |
-| Breadth-First Search | 1 |
+| Breadth-First Search | 2 |
 | Greedy | 6 |
-| Hash Table | 3 |
+| Hash Table | 4 |
 | Linked List | 1 |
 | Sliding Window | 3 |
 | Sorting | 1 |
@@ -35,6 +35,7 @@
 
 ## Breadth-First Search
 
+- [102. Binary Tree Level Order Traversal](./102.%20Binary%20Tree%20Level%20Order%20Traversal%20(Medium)/README.md) — Medium
 - [1161. Maximum Level Sum of a Binary Tree](./1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree%20(Medium)/README.md) — Medium
 
 ## Greedy
@@ -51,6 +52,7 @@
 - [1. Two Sum](./1.%20Two%20Sum%20(Easy)/README.md) — Easy
 - [3. Longest Substring Without Repeating Characters](./3.%20Longest%20Substring%20Without%20Repeating%20Characters%20(Medium)/README.md) — Medium
 - [2958. Length of Longest Subarray With at Most K Frequency](./2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency%20(Medium)/README.md) — Medium
+- [3718. Smallest Missing Multiple of K](./3718.%20Smallest%20Missing%20Multiple%20of%20K%20(Easy)/README.md) — Easy
 
 ## Linked List
 
