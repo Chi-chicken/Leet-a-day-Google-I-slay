@@ -8,7 +8,7 @@
 
 | 題目數 | Easy | Medium | Hard | Python 完成 | C++ 完成 |
 |---:|---:|---:|---:|---:|---:|
-| 90 | 39 | 48 | 3 | 29 | 38 |
+| 91 | 39 | 49 | 3 | 29 | 39 |
 
 - `✅`：已完成該語言的解法
 - `📝`：尚未完成或等待補充
@@ -65,6 +65,7 @@
 | 141 | [Linked List Cycle](./141.%20Linked%20List%20Cycle%20(Easy)/README.md) | Easy | ✅ | ✅ |
 | 144 | [Binary Tree Preorder Traversal](./144.%20Binary%20Tree%20Preorder%20Traversal%20(Easy)/README.md) | Easy | ✅ | ✅ |
 | 145 | [Binary Tree Postorder Traversal](./145.%20Binary%20Tree%20Postorder%20Traversal%20(Easy)/README.md) | Easy | ✅ | ✅ |
+| 153 | [Find Minimum in Rotated Sorted Array](./153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20(Medium)/README.md) | Medium | 📝 | ✅ |
 | 167 | [Two Sum II - Input Array Is Sorted](./167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted%20(Medium)/README.md) | Medium | 📝 | 📝 |
 | 189 | [Rotate Array](./189.%20Rotate%20Array%20(Medium)/README.md) | Medium | ✅ | ✅ |
 | 198 | [House Robber](./198.%20House%20Robber%20(Medium)/README.md) | Medium | 📝 | 📝 |

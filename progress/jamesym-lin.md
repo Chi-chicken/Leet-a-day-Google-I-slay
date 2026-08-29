@@ -101,6 +101,7 @@ Shortest Path BFS
 | [33. Search in Rotated Sorted Array (Medium)](<../33. Search in Rotated Sorted Array (Medium)/README.md>) | 2026-08-16 | YYYY-MM-DD | 1 | C++ |  |
 | [102. Binary Tree Level Order Traversal (Medium)](<../102. Binary Tree Level Order Traversal (Medium)/README.md>) | 2026-08-27 | YYYY-MM-DD | 4 | C++ |  |
 | [121. Best Time to Buy and Sell Stock (Easy)](<../121. Best Time to Buy and Sell Stock (Easy)/README.md>) | 2026-08-13 | YYYY-MM-DD | 4 | C++ |  |
+| [153. Find Minimum in Rotated Sorted Array (Medium)](<../153. Find Minimum in Rotated Sorted Array (Medium)/README.md>) | 2026-08-29 | YYYY-MM-DD | 3 | C++ |  |
 | [435. Non-overlapping Intervals (Medium)](<../435. Non-overlapping Intervals (Medium)/README.md>) | 2026-08-09 | YYYY-MM-DD | 3 | C++ |  |
 | [452. Minimum Number of Arrows to Burst Balloons (Medium)](<../452. Minimum Number of Arrows to Burst Balloons (Medium)/README.md>) | 2026-08-12 | YYYY-MM-DD | 4 | C++ |  |
 | [455. Assign Cookies (Easy)](<../455. Assign Cookies (Easy)/README.md>) | 2026-08-18 | YYYY-MM-DD | 4 | C++ |  |

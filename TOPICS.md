@@ -14,7 +14,7 @@
 
 | 題型 | 題目數 |
 |---|---:|
-| Binary Search | 1 |
+| Binary Search | 2 |
 | Bit Manipulation | 1 |
 | Breadth-First Search | 2 |
 | Greedy | 6 |
@@ -28,6 +28,7 @@
 ## Binary Search
 
 - [33. Search in Rotated Sorted Array](./33.%20Search%20in%20Rotated%20Sorted%20Array%20(Medium)/README.md) — Medium
+- [153. Find Minimum in Rotated Sorted Array](./153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20(Medium)/README.md) — Medium
 
 ## Bit Manipulation
 
