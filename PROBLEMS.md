@@ -8,7 +8,7 @@
 
 | 題目數 | Easy | Medium | Hard | Python 完成 | C++ 完成 |
 |---:|---:|---:|---:|---:|---:|
-| 91 | 39 | 49 | 3 | 29 | 39 |
+| 92 | 39 | 49 | 4 | 30 | 39 |
 
 - `✅`：已完成該語言的解法
 - `📝`：尚未完成或等待補充
@@ -38,6 +38,7 @@
 | 19 | [Remove Nth Node From End of List](./19.%20Remove%20Nth%20Node%20From%20End%20of%20List%20(Medium)/README.md) | Medium | 📝 | 📝 |
 | 20 | [Valid Parentheses](./20.%20Valid%20Parentheses%20(Easy)/README.md) | Easy | 📝 | 📝 |
 | 22 | [Generate Parentheses](./22.%20Generate%20Parentheses%20(Medium)/README.md) | Medium | 📝 | 📝 |
+| 23 | [Merge k Sorted Lists](./23.%20Merge%20k%20Sorted%20Lists%20(Hard)/README.md) | Hard | ✅ | 📝 |
 | 24 | [Swap Nodes in Pairs](./24.%20Swap%20Nodes%20in%20Pairs%20(Medium)/README.md) | Medium | ✅ | ✅ |
 | 29 | [Divide Two Integers](./29.%20Divide%20Two%20Integers%20(Medium)/README.md) | Medium | 📝 | 📝 |
 | 31 | [Next Permutation](./31.%20Next%20Permutation%20(Medium)/README.md) | Medium | 📝 | 📝 |
