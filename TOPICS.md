@@ -16,8 +16,8 @@
 |---|---:|
 | Binary Search | 2 |
 | Bit Manipulation | 1 |
-| Breadth-First Search | 2 |
-| Divide and Conquer Heap (Priority Queue) Merge Sort Tournament Sort | 1 |
+| Breadth-First Search | 3 |
+| Divide and Conquer | 1 |
 | Greedy | 6 |
 | Hash Table | 4 |
 | Linked List | 2 |
@@ -38,9 +38,10 @@
 ## Breadth-First Search
 
 - [102. Binary Tree Level Order Traversal](./102.%20Binary%20Tree%20Level%20Order%20Traversal%20(Medium)/README.md) — Medium
+- [199. Binary Tree Right Side View](./199.%20Binary%20Tree%20Right%20Side%20View%20(Medium)/README.md) — Medium
 - [1161. Maximum Level Sum of a Binary Tree](./1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree%20(Medium)/README.md) — Medium
 
-## Divide and Conquer Heap (Priority Queue) Merge Sort Tournament Sort
+## Divide and Conquer
 
 - [23. Merge k Sorted Lists](./23.%20Merge%20k%20Sorted%20Lists%20(Hard)/README.md) — Hard
 

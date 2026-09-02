@@ -1,7 +1,7 @@
 # 23. Merge k Sorted Lists
 
 > 難度：**Hard**
-> 題型：`Linked List`, `Divide and Conquer` `Heap (Priority Queue)` `Merge Sort` `Tournament Sort`
+> 題型：`Linked List`, `Divide and Conquer`
 > 題目連結：[LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/)
 
 ## 題目摘要
