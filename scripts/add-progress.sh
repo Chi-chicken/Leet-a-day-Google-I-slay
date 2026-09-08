@@ -40,25 +40,28 @@ done < <(find "$project_root" -mindepth 1 -maxdepth 1 -type d \
 
 [[ -n $problem_dir && -f $problem_dir/README.md ]] || { echo "Error: problem $number does not exist." >&2; exit 1; }
 
-if grep -qE "^\| \[$number\. " "$member_file"; then
-    echo "Error: problem $number already exists in progress/$github_id.md; update its row directly." >&2
-    exit 1
-fi
-
 directory=$(basename "$problem_dir")
 today=$(date +%F)
 note=${note//$'\n'/ }
 note=${note//|/&#124;}
 row="| [$directory](<../$directory/README.md>) | $today | YYYY-MM-DD | $mastery | $language | $note |"
 temporary_file=$(mktemp)
-trap 'rm -f "$temporary_file"' EXIT
+trap 'rm -f "$temporary_file" "$temporary_file.summary"' EXIT
 
-awk -v new_number="$number" -v new_row="$row" '
+PROGRESS_ROW="$row" PROGRESS_NOTE="$note" awk -v new_number="$number" \
+    -v today="$today" -v mastery="$mastery" -v language="$language" -v has_note="$(( $# == 5 ))" '
+    BEGIN { new_row = ENVIRON["PROGRESS_ROW"]; note = ENVIRON["PROGRESS_NOTE"] }
     /^\|---\|:---:/ { in_records = 1; print; next }
     in_records && /^\| \[[0-9]+\./ {
         current = $0
         sub(/^\| \[/, "", current)
         sub(/\..*$/, "", current)
+        if (current + 0 == new_number + 0) {
+            split($0, fields, "|")
+            printf "%s|%s|%s| %s | %s | %s |%s|\n", fields[1], fields[2], fields[3], today, mastery, language, (has_note ? " " note " " : fields[7])
+            inserted = 1
+            next
+        }
         if (!inserted && current + 0 > new_number + 0) {
             print new_row
             inserted = 1
@@ -80,6 +83,9 @@ awk -v new_number="$number" -v new_row="$row" '
     exit 1
 }
 
+awk -f "$project_root/scripts/progress-summary.awk" "$temporary_file" > "$temporary_file.summary"
+cat "$temporary_file.summary" > "$temporary_file"
+rm "$temporary_file.summary"
 mv "$temporary_file" "$member_file"
 trap - EXIT
-echo "Added: problem $number to progress/$github_id.md ($language, mastery $mastery, $today)"
+echo "Updated: problem $number and statistics in progress/$github_id.md ($language, mastery $mastery, $today)"
