@@ -10,22 +10,22 @@
 
 #### Binary Tree Level BFS
 
-1. 102. Binary Tree Level Order Traversal ✅
-2. 199. Binary Tree Right Side View
-3. 515. Find Largest Value in Each Tree Row
-4. 1161. Maximum Level Sum
+1. 102\. Binary Tree Level Order Traversal ✅
+2. 199\. Binary Tree Right Side View
+3. 515\. Find Largest Value in Each Tree Row
+4. 1161\. Maximum Level Sum
 
 #### Grid BFS
 
-1. 733. Flood Fill
-2. 200. Number of Islands
-3. 994. Rotting Oranges
+1. 733\. Flood Fill
+2. 200\. Number of Islands
+3. 994\. Rotting Oranges
 
 #### Shortest Path BFS
 
-1. 1091. Shortest Path in Binary Matrix
-2. 752. Open the Lock
-3. 127. Word Ladder
+1. 1091\. Shortest Path in Binary Matrix
+2. 752\. Open the Lock
+3. 127\. Word Ladder
 
 > **BFS 核心五題：** 102 → 200 → 994 → 1091 → 752
 
@@ -33,74 +33,74 @@
 
 建立 Greedy 基礎的十題練習順序：
 
-1. 455. Assign Cookies ✅
-2. 860. Lemonade Change ✅
-3. 121. Best Time to Buy and Sell Stock ✅
-4. 55. Jump Game
-5. 763. Partition Labels
-6. 435. Non-overlapping Intervals
-7. 452. Minimum Number of Arrows
-8. 45. Jump Game II
-9. 134. Gas Station
-10. 135. Candy
+1. 455\. Assign Cookies ✅
+2. 860\. Lemonade Change ✅
+3. 121\. Best Time to Buy and Sell Stock ✅
+4. 55\. Jump Game
+5. 763\. Partition Labels
+6. 435\. Non-overlapping Intervals
+7. 452\. Minimum Number of Arrows
+8. 45\. Jump Game II
+9. 134\. Gas Station
+10. 135\. Candy
 
 ### Sliding Window
 
-1. 3. Longest Substring Without Repeating Characters
-2. 904. Fruit Into Baskets
-3. 1004. Max Consecutive Ones III
-4. 424. Longest Repeating Character Replacement
+1. 3\. Longest Substring Without Repeating Characters
+2. 904\. Fruit Into Baskets
+3. 1004\. Max Consecutive Ones III
+4. 424\. Longest Repeating Character Replacement
 
 ### Binary Search
 
-1. 33. Search in Rotated Sorted Array ✅
-2. 153. Find Minimum in Rotated Sorted Array ✅
-3. 34. Find First and Last Position
-4. 162. Find Peak Element
-5. 875. Koko Eating Bananas
-6. 1011. Capacity To Ship Packages
+1. 33\. Search in Rotated Sorted Array ✅
+2. 153\. Find Minimum in Rotated Sorted Array ✅
+3. 34\. Find First and Last Position
+4. 162\. Find Peak Element
+5. 875\. Koko Eating Bananas
+6. 1011\. Capacity To Ship Packages
 
 ### Dynamic Programming
 
 適合剛開始學習 DP 的練習順序：
 
-1. 70. Climbing Stairs ✅
-2. 746. Min Cost Climbing Stairs ✅
-3. 198. House Robber
-4. 213. House Robber II
-5. 62. Unique Paths
-6. 64. Minimum Path Sum
-7. 120. Triangle
-8. 416. Partition Equal Subset Sum
-9. 322. Coin Change
-10. 518. Coin Change II
-11. 1143. Longest Common Subsequence
-12. 516. Longest Palindromic Subsequence
-13. 309. Best Time to Buy and Sell Stock with Cooldown
+1. 70\. Climbing Stairs ✅
+2. 746\. Min Cost Climbing Stairs ✅
+3. 198\. House Robber
+4. 213\. House Robber II
+5. 62\. Unique Paths
+6. 64\. Minimum Path Sum
+7. 120\. Triangle
+8. 416\. Partition Equal Subset Sum
+9. 322\. Coin Change
+10. 518\. Coin Change II
+11. 1143\. Longest Common Subsequence
+12. 516\. Longest Palindromic Subsequence
+13. 309\. Best Time to Buy and Sell Stock with Cooldown
 
 ### Graph / Grid Search
 
 #### Stage 1：Connected Component
 
-1. 733. Flood Fill
-2. 200. Number of Islands
-3. 695. Max Area of Island
+1. 733\. Flood Fill
+2. 200\. Number of Islands
+3. 695\. Max Area of Island
 
 #### Stage 2：Boundary / Reverse Search
 
-1. 130. Surrounded Regions
-2. 417. Pacific Atlantic
+1. 130\. Surrounded Regions
+2. 417\. Pacific Atlantic
 
 #### Stage 3：Shortest Path / Multi-source BFS
 
-1. 994. Rotting Oranges
-2. 542. 01 Matrix
-3. 1091. Shortest Path in Binary Matrix
+1. 994\. Rotting Oranges
+2. 542\. 01 Matrix
+3. 1091\. Shortest Path in Binary Matrix
 
 #### Stage 4：一般 Graph
 
-1. 133. Clone Graph
-2. 127. Word Ladder
+1. 133\. Clone Graph
+2. 127\. Word Ladder
 
 ## 題目紀錄
 
