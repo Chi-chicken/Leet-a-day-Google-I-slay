@@ -16,8 +16,10 @@
 |---|---:|
 | Binary Search | 2 |
 | Bit Manipulation | 1 |
-| Breadth-First Search | 3 |
+| Breadth-First Search | 4 |
+| Depth-First Search | 1 |
 | Divide and Conquer | 1 |
+| Dynamic Programming | 2 |
 | Greedy | 6 |
 | Hash Table | 4 |
 | Linked List | 2 |
@@ -39,11 +41,21 @@
 
 - [102. Binary Tree Level Order Traversal](./102.%20Binary%20Tree%20Level%20Order%20Traversal%20(Medium)/README.md) — Medium
 - [199. Binary Tree Right Side View](./199.%20Binary%20Tree%20Right%20Side%20View%20(Medium)/README.md) — Medium
+- [733. Flood Fill](./733.%20Flood%20Fill%20(Easy)/README.md) — Easy
 - [1161. Maximum Level Sum of a Binary Tree](./1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree%20(Medium)/README.md) — Medium
+
+## Depth-First Search
+
+- [733. Flood Fill](./733.%20Flood%20Fill%20(Easy)/README.md) — Easy
 
 ## Divide and Conquer
 
 - [23. Merge k Sorted Lists](./23.%20Merge%20k%20Sorted%20Lists%20(Hard)/README.md) — Hard
+
+## Dynamic Programming
+
+- [70. Climbing Stairs](./70.%20Climbing%20Stairs%20(Easy)/README.md) — Easy
+- [746. Min Cost Climbing Stairs](./746.%20Min%20Cost%20Climbing%20Stairs%20(Easy)/README.md) — Easy
 
 ## Greedy
 

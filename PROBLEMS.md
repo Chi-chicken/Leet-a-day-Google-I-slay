@@ -8,7 +8,7 @@
 
 | 題目數 | Easy | Medium | Hard | Python 完成 | C++ 完成 |
 |---:|---:|---:|---:|---:|---:|
-| 93 | 39 | 50 | 4 | 30 | 40 |
+| 94 | 40 | 50 | 4 | 30 | 42 |
 
 - `✅`：已完成該語言的解法
 - `📝`：尚未完成或等待補充
@@ -51,7 +51,7 @@
 | 62 | [Unique Paths](./62.%20Unique%20Paths%20(Medium)/README.md) | Medium | 📝 | 📝 |
 | 66 | [Plus One](./66.%20Plus%20One%20(Easy)/README.md) | Easy | 📝 | 📝 |
 | 67 | [Add Binary](./67.%20Add%20Binary%20(Medium)/README.md) | Medium | 📝 | 📝 |
-| 70 | [Climbing Stairs](./70.%20Climbing%20Stairs%20(Easy)/README.md) | Easy | ✅ | 📝 |
+| 70 | [Climbing Stairs](./70.%20Climbing%20Stairs%20(Easy)/README.md) | Easy | ✅ | ✅ |
 | 83 | [Remove Duplicates from Sorted List](./83.%20Remove%20Duplicates%20from%20Sorted%20List%20(Easy)/README.md) | Easy | 📝 | 📝 |
 | 88 | [Merge Sorted Array](./88.%20Merge%20Sorted%20Array%20(Easy)/README.md) | Easy | 📝 | 📝 |
 | 94 | [Binary Tree Inorder Traversal](./94.%20Binary%20Tree%20Inorder%20Traversal%20(Easy)/README.md) | Easy | ✅ | ✅ |
@@ -93,6 +93,7 @@
 | 594 | [Longest Harmonious Subsequence](./594.%20Longest%20Harmonious%20Subsequence%20(Easy)/README.md) | Easy | 📝 | 📝 |
 | 733 | [Flood Fill](./733.%20Flood%20Fill%20(Easy)/README.md) | Easy | ✅ | ✅ |
 | 735 | [Asteroid Collision](./735.%20Asteroid%20Collision%20(Medium)/README.md) | Medium | ✅ | ✅ |
+| 746 | [Min Cost Climbing Stairs](./746.%20Min%20Cost%20Climbing%20Stairs%20(Easy)/README.md) | Easy | 📝 | ✅ |
 | 783 | [Minimum Distance Between BST Nodes](./783.%20Minimum%20Distance%20Between%20BST%20Nodes%20(Easy)/README.md) | Easy | ✅ | ✅ |
 | 860 | [Lemonade Change](./860.%20Lemonade%20Change%20(Easy)/README.md) | Easy | 📝 | ✅ |
 | 876 | [Middle of the Linked List](./876.%20Middle%20of%20the%20Linked%20List%20(Easy)/README.md) | Easy | 📝 | 📝 |

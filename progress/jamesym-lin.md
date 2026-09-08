@@ -64,8 +64,8 @@
 
 適合剛開始學習 DP 的練習順序：
 
-1. 70. Climbing Stairs
-2. 746. Min Cost Climbing Stairs
+1. 70. Climbing Stairs ✅
+2. 746. Min Cost Climbing Stairs ✅
 3. 198. House Robber
 4. 213. House Robber II
 5. 62. Unique Paths
@@ -77,6 +77,30 @@
 11. 1143. Longest Common Subsequence
 12. 516. Longest Palindromic Subsequence
 13. 309. Best Time to Buy and Sell Stock with Cooldown
+
+### Graph / Grid Search
+
+#### Stage 1：Connected Component
+
+1. 733. Flood Fill
+2. 200. Number of Islands
+3. 695. Max Area of Island
+
+#### Stage 2：Boundary / Reverse Search
+
+1. 130. Surrounded Regions
+2. 417. Pacific Atlantic
+
+#### Stage 3：Shortest Path / Multi-source BFS
+
+1. 994. Rotting Oranges
+2. 542. 01 Matrix
+3. 1091. Shortest Path in Binary Matrix
+
+#### Stage 4：一般 Graph
+
+1. 133. Clone Graph
+2. 127. Word Ladder
 
 ## 題目紀錄
 
@@ -96,6 +120,7 @@
 | [2. Add Two Numbers (Medium)](<../2. Add Two Numbers (Medium)/README.md>) | 2026-08-10 | YYYY-MM-DD | 3 | C++ |  |
 | [3. Longest Substring Without Repeating Characters (Medium)](<../3. Longest Substring Without Repeating Characters (Medium)/README.md>) | 2026-08-11 | YYYY-MM-DD | 3 | C++ |  |
 | [33. Search in Rotated Sorted Array (Medium)](<../33. Search in Rotated Sorted Array (Medium)/README.md>) | 2026-08-16 | YYYY-MM-DD | 1 | C++ |  |
+| [70. Climbing Stairs (Easy)](<../70. Climbing Stairs (Easy)/README.md>) | 2026-09-06 | YYYY-MM-DD | 4 | C++ |  |
 | [102. Binary Tree Level Order Traversal (Medium)](<../102. Binary Tree Level Order Traversal (Medium)/README.md>) | 2026-08-27 | YYYY-MM-DD | 4 | C++ |  |
 | [121. Best Time to Buy and Sell Stock (Easy)](<../121. Best Time to Buy and Sell Stock (Easy)/README.md>) | 2026-08-13 | YYYY-MM-DD | 4 | C++ |  |
 | [153. Find Minimum in Rotated Sorted Array (Medium)](<../153. Find Minimum in Rotated Sorted Array (Medium)/README.md>) | 2026-08-29 | YYYY-MM-DD | 3 | C++ |  |
@@ -103,6 +128,8 @@
 | [435. Non-overlapping Intervals (Medium)](<../435. Non-overlapping Intervals (Medium)/README.md>) | 2026-08-09 | YYYY-MM-DD | 3 | C++ |  |
 | [452. Minimum Number of Arrows to Burst Balloons (Medium)](<../452. Minimum Number of Arrows to Burst Balloons (Medium)/README.md>) | 2026-08-12 | YYYY-MM-DD | 4 | C++ |  |
 | [455. Assign Cookies (Easy)](<../455. Assign Cookies (Easy)/README.md>) | 2026-08-18 | YYYY-MM-DD | 4 | C++ |  |
+| [733. Flood Fill (Easy)](<../733. Flood Fill (Easy)/README.md>) | 2026-09-09 | YYYY-MM-DD | 3 | C++ |  |
+| [746. Min Cost Climbing Stairs (Easy)](<../746. Min Cost Climbing Stairs (Easy)/README.md>) | 2026-09-08 | YYYY-MM-DD | 4 | C++ |  |
 | [860. Lemonade Change (Easy)](<../860. Lemonade Change (Easy)/README.md>) | 2026-08-13 | YYYY-MM-DD | 4 | C++ |  |
 | [1161. Maximum Level Sum of a Binary Tree (Medium)](<../1161. Maximum Level Sum of a Binary Tree (Medium)/README.md>) | 2026-08-14 | YYYY-MM-DD | 3 | C++ |  |
 | [2078. Two Furthest Houses With Different Colors (Easy)](<../2078. Two Furthest Houses With Different Colors (Easy)/README.md>) | 2026-08-08 | YYYY-MM-DD | 3 | C++ |  |

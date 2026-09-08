@@ -1,6 +1,7 @@
 # 70. Climbing Stairs
 
 > 難度：**Easy**
+> 題型：`Dynamic Programming`
 > 題目連結：[LeetCode](https://leetcode.com/problems/climbing-stairs/)
 
 ## 題目摘要
@@ -34,6 +35,11 @@ Each time you can either climb `1` or `2` steps. In how many distinct ways can y
 
 *   `1 <= n <= 45`
 
+## 複雜度
+
+- 時間：`O(n)` 
+- 空間：`O(1)` 
+
 ## Python
 
 ```python
@@ -54,6 +60,23 @@ Runtime: 0ms, Memory: 17.8mb
 ## C++
 
 ```cpp
+class Solution {
+public:
+    int climbStairs(int n) {
+        int prev2 = 1, prev1 = 2, curr;
+
+        if (n==1) return prev2;
+        else if (n==2) return prev1;
+        else {
+            for (int i=2; i<n; i++){
+                curr = prev2 + prev1;
+                prev2 = prev1;
+                prev1 = curr;
+            }
+        }
+        return curr;
+    }
+};
 ```
 
 Runtime: ms, Memory: mb
